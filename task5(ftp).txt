@@ -1,0 +1,83 @@
+ABIN THOMAS
+TASK 5
+s4d1@ceclab2-Veriton-Series:~$ sftp cs17d01@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d01@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+abin              cec               examples.desktop  foss.linux.pdf    foss.txt          fosslaba          ls                madrid.txt        
+result_CHN.pdf    s4d.txt           
+sftp> get foss.linux.pdf
+Fetching /home/cs17d01/foss.linux.pdf to foss.linux.pdf
+/home/cs17d01/foss.linux.pdf                                                                                  100%   91KB  91.4KB/s   00:00    
+sftp> ls
+abin              cec               examples.desktop  foss.linux.pdf    foss.txt          fosslaba          ls                madrid.txt        
+result_CHN.pdf    s4d.txt           
+sftp> ls -l
+drwxr-xr-x    2 cs17d01  cs17d        4096 Mar 25 09:47 abin
+drwxr-xr-x    2 cs17d01  cs17d        4096 Mar 25 10:55 cec
+-rw-r--r--    1 cs17d01  cs17d        8980 Apr 20  2016 examples.desktop
+-rw-r--r--    1 cs17d01  cs17d       93612 Mar 25 10:55 foss.linux.pdf
+-rw-r--r--    1 cs17d01  cs17d           9 Mar 25 10:32 foss.txt
+drwxr-xr-x    2 cs17d01  cs17d        4096 Mar 25 11:01 fosslaba
+-rw-r--r--    1 cs17d01  cs17d           0 Mar 11 11:40 ls
+-rw-r--r--    1 cs17d01  cs17d       13450 Mar 25 10:32 madrid.txt
+-rw-r--r--    1 cs17d01  cs17d       13581 Mar 25 09:51 result_CHN.pdf
+-rw-r--r--    1 cs17d01  cs17d       13450 Mar 25 09:44 s4d.txt
+sftp> pwd
+Remote working directory: /home/cs17d01
+sftp> !
+s4d1@ceclab2-Veriton-Series:~$ ls
+abi                        ceccs17d01.25.03.19.txt   cgpa.txt     examples.desktop  new.txt          roll1.txt~     task5.txt
+abt.txt~                   ceccs17d01.25.2.19.txt    dbatch.txt   foss              Pictures         s4dfinal.txt   task5.txt~
+ceccs17d01.04.02.19.txt~   ceccs17d01.txt            dbatch.txt~  foss.linux.pdf    Public           s4dfinal.txt~  Templates
+ceccs17d01.11.03.19.txt    ceccs17d04.12.03.19       Desktop      madrid            qwerty.png       task4.txt      Videos
+ceccs17d01.25.02.19.txt    ceccs17d04.12.03.19.txt   Documents    madrid.txt        result_CHN.pdf   task51.txt
+ceccs17d01.25.02.2018.txt  ceccsd01.11.003.2019.txt  Downloads    Music             result_CHN.txt~  task51.txt~
+s4d1@ceclab2-Veriton-Series:~$ ls -ll
+total 1628
+drwxrwxr-x 2 s4d1 s4d1   4096 Feb  4 10:37 abi
+-rw-rw-r-- 1 s4d1 s4d1     41 Feb  4 10:59 abt.txt~
+-rw-rw-r-- 1 s4d1 s4d1 118784 Feb  4 11:40 ceccs17d01.04.02.19.txt~
+-rw-rw-r-- 1 s4d1 s4d1  10211 Mar 11 11:17 ceccs17d01.11.03.19.txt
+-rw-rw-r-- 1 s4d1 s4d1 188416 Feb 25 11:34 ceccs17d01.25.02.19.txt
+-rw-rw-r-- 1 s4d1 s4d1    324 Feb 25 09:30 ceccs17d01.25.02.2018.txt
+-rw-rw-r-- 1 s4d1 s4d1      0 Mar 25 09:22 ceccs17d01.25.03.19.txt
+-rw-rw-r-- 1 s4d1 s4d1  76379 Feb 25 12:12 ceccs17d01.25.2.19.txt
+-rw-rw-r-- 1 s4d1 s4d1    192 Feb 25 09:26 ceccs17d01.txt
+-rw-rw-r-- 1 s4d1 s4d1   1294 Mar 11 10:03 ceccs17d04.12.03.19
+-rw-rw-r-- 1 s4d1 s4d1    247 Mar 11 10:03 ceccs17d04.12.03.19.txt
+-rw-rw-r-- 1 s4d1 s4d1      0 Mar 11 11:53 ceccsd01.11.003.2019.txt
+-rw-rw-r-- 1 s4d1 s4d1      0 Feb 25 12:07 cgpa.txt
+-rw-rw-r-- 1 s4d1 s4d1   3001 Mar 11 11:31 dbatch.txt
+-rw-rw-r-- 1 s4d1 s4d1   3058 Feb 25 09:49 dbatch.txt~
+drwxr-xr-x 2 s4d1 s4d1   4096 Mar 25 09:06 Desktop
+drwxr-xr-x 2 s4d1 s4d1   4096 Feb  4 09:24 Documents
+drwxr-xr-x 2 s4d1 s4d1   4096 Mar 25 09:28 Downloads
+-rw-r--r-- 1 s4d1 s4d1   8980 Feb  4 09:22 examples.desktop
+drwxrwxr-x 2 s4d1 s4d1   4096 Mar 11 11:38 foss
+-rw-rw-r-- 1 s4d1 s4d1  93612 Mar 25 11:13 foss.linux.pdf
+drwxrwxr-x 2 s4d1 s4d1   4096 Feb  4 11:14 madrid
+-rw-r--r-- 1 s4d1 s4d1  13450 Mar 25 10:57 madrid.txt
+drwxr-xr-x 2 s4d1 s4d1   4096 Feb  4 09:24 Music
+-rw-rw-r-- 1 s4d1 s4d1      0 Feb  4 09:58 new.txt
+drwxr-xr-x 2 s4d1 s4d1   4096 Mar 25 09:25 Pictures
+drwxr-xr-x 2 s4d1 s4d1   4096 Feb  4 09:24 Public
+-rw-rw-r-- 1 s4d1 s4d1 951238 Feb  4 11:52 qwerty.png
+-rw-rw-r-- 1 s4d1 s4d1  13581 Mar 25 09:53 result_CHN.pdf
+-rw-rw-r-- 1 s4d1 s4d1  43809 Feb 11 10:46 result_CHN.txt~
+-rw-rw-r-- 1 s4d1 s4d1     89 Feb 11 11:20 roll1.txt~
+-rw-rw-r-- 1 s4d1 s4d1   3063 Mar 11 11:09 s4dfinal.txt
+-rw-rw-r-- 1 s4d1 s4d1   3151 Feb 25 12:11 s4dfinal.txt~
+-rw-rw-r-- 1 s4d1 s4d1  12288 Mar 25 10:23 task4.txt
+-rw-rw-r-- 1 s4d1 s4d1  14258 Mar 25 10:36 task51.txt
+-rw-rw-r-- 1 s4d1 s4d1      0 Mar 25 10:28 task51.txt~
+-rw-rw-r-- 1 s4d1 s4d1   1332 Mar 25 09:55 task5.txt
+-rw-rw-r-- 1 s4d1 s4d1      0 Mar 25 09:50 task5.txt~
+drwxr-xr-x 2 s4d1 s4d1   4096 Feb  4 09:24 Templates
+drwxr-xr-x 2 s4d1 s4d1   4096 Mar 25 09:46 Videos
+
