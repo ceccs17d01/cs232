@@ -1,0 +1,133 @@
+cec-lab2@ceclab2-Veriton-Series:~$ script abi17
+Script started, file is abi17
+cec-lab2@ceclab2-Veriton-Series:~$ exit
+exit
+Script done, file is abi17
+cec-lab2@ceclab2-Veriton-Series:~$ script abi17.txt
+Script started, file is abi17.txt
+cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get install vsftpd
+[sudo] password for cec-lab2: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+vsftpd is already the newest version.
+The following packages were automatically installed and are no longer required:
+  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libqpdf13 libupstart1
+  python-ntdb
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 26 not upgraded.
+cec-lab2@ceclab2-Veriton-Series:~$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:cec-lab2): cec-lab2
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rw-rw-r--    1 1000     1000         8055 Mar 18 12:09 (t3)Networkingtasks.txt
+drwxr-xr-x    3 1000     1000         4096 Apr 01 11:59 Desktop
+drwxr-xr-x    2 1000     1000         4096 Dec 01 12:01 Documents
+drwxr-xr-x    2 1000     1000         4096 Apr 09 13:43 Downloads
+drwxr-xr-x    2 1000     1000         4096 Sep 19  2018 Music
+drwxr-xr-x    2 1000     1000         4096 Apr 01 11:48 Pictures
+drwxr-xr-x    2 1000     1000         4096 Sep 19  2018 Public
+drwxr-xr-x    2 1000     1000         4096 Sep 19  2018 Templates
+drwxr-xr-x    2 1000     1000         4096 Sep 19  2018 Videos
+-rwxrwxr-x    1 1000     1000         8832 Mar 01 11:42 a.out
+drwxrwxr-x    5 1000     1000         4096 Feb 19 11:32 a1
+drwxrwxr-x    2 1000     1000         4096 Feb 19 11:29 a2
+drwxrwxr-x    2 1000     1000         4096 Feb 19 11:29 a3
+drwxrwxr-x    2 1000     1000         4096 Feb 19 11:29 a4
+-rw-rw-r--    1 1000     1000          381 Apr 11 10:49 abi17
+-rw-rw-r--    1 1000     1000            0 Apr 11 10:50 abi17.txt
+-rw-rw-r--    1 1000     1000            0 Apr 11 10:34 abin
+-rw-rw-r--    1 1000     1000        53248 Apr 04 11:26 abin.txt
+-rw-rw-r--    1 1000     1000          158 Apr 04 14:49 arg.sh
+-rw-rw-r--    1 1000     1000          146 Apr 04 14:46 arg.sh~
+-rw-rw-r--    1 1000     1000          146 Apr 04 14:20 avg.sh
+-rw-rw-r--    1 1000     1000         1540 Sep 27  2018 barca.c
+-rw-rw-r--    1 1000     1000           30 Sep 27  2018 barca.c~
+-rw-rw-r--    1 1000     1000          401 Apr 04 15:11 calc.sh
+-rw-rw-r--    1 1000     1000          404 Apr 04 15:07 calc.sh~
+-rw-rw-r--    1 1000     1000          333 Apr 04 15:22 calc1.sh
+-rw-rw-r--    1 1000     1000          368 Apr 04 15:16 calc2.sh
+-rw-rw-r--    1 1000     1000          444 Apr 04 15:15 calc2.sh~
+-rw-rw-r--    1 1000     1000         2379 Mar 11 10:23 ceccs17d04.11.03.19.txt
+---------x    1 1000     1000           14 Feb 15 10:17 employ.txt
+-rw-rw-r--    1 1000     1000           55 Feb 28 14:31 error.txt
+-rw-rw-r--    1 1000     1000         2365 Feb 28 14:34 error1.txt
+-rw-rw-r--    1 1000     1000          147 Apr 04 14:33 even.sh
+-rw-r--r--    1 1000     1000         8980 Sep 19  2018 examples.desktop
+-rw-rw-r--    1 1000     1000         1053 Sep 27  2018 fake.c
+-rw-rw-r--    1 1000     1000         1053 Sep 27  2018 fake.c~
+-rw-rw-r--    1 1000     1000           50 Mar 12 10:55 file.txt
+-rw-rw-r--    1 1000     1000            0 Mar 12 10:46 file.txt~
+-rw-rw-r--    1 1000     1000        73728 Apr 11 10:40 ftp
+-rw-rw-r--    1 1000     1000           18 Mar 12 11:27 grep.txt
+-rw-rw-r--    1 1000     1000            0 Mar 12 11:26 grep.txt~
+-rw-rw-r--    1 1000     1000         1460 Sep 27  2018 hala.c
+-rw-rw-r--    1 1000     1000         4096 Apr 11 10:14 http
+-rw-rw-r--    1 1000     1000         4736 Apr 01 10:08 ifconfig
+-rw-rw-r--    1 1000     1000          312 Feb 08 12:26 kk1.c
+-rw-rw-r--    1 1000     1000         4740 Mar 18 12:13 lan1.txt
+-rw-rw-r--    1 1000     1000           33 Mar 12 11:18 linux.txt
+-rw-rw-r--    1 1000     1000           50 Mar 12 11:25 linux2.txt
+-rw-rw-r--    1 1000     1000         1126 Sep 27  2018 madrid.c]
+-rw-rw-r--    1 1000     1000         1126 Sep 27  2018 madrid.c]~
+-rw-rw-r--    1 1000     1000          903 Sep 27  2018 merge.c
+-rw-rw-r--    1 1000     1000          903 Sep 27  2018 merge.c~
+drwxrwxr-x    3 1000     1000         4096 Feb 19 11:25 newdir
+-rw-r--r--    1 0        0            2780 Apr 04 11:24 npm-debug.log
+-rw-rw-r--    1 1000     1000          130 Apr 04 14:34 oe.sh
+-rw-rw-r--    1 1000     1000          128 Apr 04 14:31 oe.sh~
+-rw-rw-r--    1 1000     1000          613 Mar 12 10:39 output1.txt
+-rw-rw-r--    1 1000     1000          378 Mar 12 10:40 output2.txt
+-rw-rw-r--    1 1000     1000           59 Apr 11 10:26 perl1.pl
+-rw-rw-r--    1 1000     1000           58 Apr 11 10:26 perl1~
+-rw-rw-r--    1 1000     1000          103 Apr 11 10:23 perl2.pl
+-rw-rw-r--    1 1000     1000          635 Feb 15 10:44 pgm1.c
+-rw-rw-r--    1 1000     1000          635 Feb 15 10:44 pgm1.c~
+-rw-rw-r--    1 1000     1000          638 Feb 15 11:03 pgm2.c
+-rw-rw-r--    1 1000     1000          638 Feb 15 11:03 pgm2.c~
+-rw-rw-r--    1 1000     1000          634 Feb 15 11:07 pgm3.c
+-rw-rw-r--    1 1000     1000          634 Feb 15 11:07 pgm3.c~
+-rw-rw-r--    1 1000     1000         3399 Dec 01 10:40 polyadds3.4.c
+-rw-rw-r--    1 1000     1000         3389 Dec 01 10:35 polyadds3.4.c~
+-rw-rw-r--    1 1000     1000          402 Mar 01 11:42 processpgm.c
+-rw-rw-r--    1 1000     1000          402 Mar 01 11:42 processpgm.c~
+-rw-rw-r--    1 1000     1000         2431 Feb 28 14:28 redirection.txt
+-rw-rw-r--    1 1000     1000          127 Apr 04 14:17 s4c11.sh
+-rw-rw-r--    1 1000     1000          125 Apr 04 14:17 s4c11.sh~
+drwxrwxr-x    6 1000     1000         4096 Feb 19 11:35 s4c1new
+drwxrwxr-x    2 1000     1000         4096 Feb 19 10:23 s4cbatch
+drwxrwxr-x    5 1000     1000         4096 Feb 19 12:10 s4cnew2
+-rw-rw-r--    1 1000     1000        16384 Apr 04 11:58 sdasd
+-rw-rw-r--    1 1000     1000           50 Mar 12 11:11 sort.txt
+-rw-rw-r--    1 1000     1000           50 Mar 12 11:09 sort.txt~
+-rw-rw-r--    1 1000     1000          135 Apr 04 14:12 sum.sh
+-rw-rw-r--    1 1000     1000            0 Apr 04 14:11 sum.sh~
+-rw-rw-r--    1 1000     1000         1978 Sep 27  2018 turk.c
+-rw-rw-r--    1 1000     1000           88 Feb 28 14:36 user.txt
+226 Directory send OK.
+ftp> cd Document
+550 Failed to change directory.
+ftp> cd Documents
+250 Directory successfully changed.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rwxrwxr-x    1 1000     1000        12899 Dec 01 11:10 a.out
+-rw-rw-r--    1 1000     1000         3303 Dec 01 11:09 polyadds34.c~
+-rw-rw-r--    1 1000     1000          677 Oct 09  2018 qcsrt.c
+-rw-rw-r--    1 1000     1000          675 Oct 09  2018 qcsrt.c~
+-rw-rw-r--    1 1000     1000          689 Oct 09  2018 qsort.c
+-rw-rw-r--    1 1000     1000          874 Oct 09  2018 qsort.c~
+226 Directory send OK.
+ftp> bye
+221 Goodbye.
+cec-lab2@ceclab2-Veriton-Series:~$ 
+
