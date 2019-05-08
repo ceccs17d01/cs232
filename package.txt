@@ -1,668 +1,0 @@
-Script started on Thursday 11 April 2019 10:56:14 AM IST
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ apt update
-E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
-E: Unable to lock directory /var/lib/apt/lists/
-E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
-E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ apt [K[K[K[Ksudo apt [K-get update
-[sudo] password for cec-lab2: 
-0% [Working]            Ign http://in.archive.ubuntu.com trusty InRelease
-            7% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                    Get:1 http://security.ubuntu.com trusty-security InRelease [65.9 kB]
-                                                                    8% [Waiting for headers] [1 InRelease 5,426 B/65.9 kB 8%] [Waiting for headers]                                                                               Hit http://packages.microsoft.com stable InRelease
-17% [Waiting for headers] [1 InRelease 11.2 kB/65.9 kB 17%] [Waiting for header17% [InRelease gpgv 3,182 B] [Waiting for headers] [1 InRelease 11.2 kB/65.9 kB21% [Waiting for headers] [1 InRelease 14.1 kB/65.9 kB 21%] [Waiting for header                                                                               Ign http://extras.ubuntu.com trusty InRelease
-                                                                               21% [Waiting for headers] [1 InRelease 14.1 kB/65.9 kB 21%]                                                           Get:2 http://in.archive.ubuntu.com trusty-updates InRelease [65.9 kB]
-                                                           15% [2 InRelease 0 B/65.9 kB 0%] [1 InRelease 19.9 kB/65.9 kB 30%] [Waiting for                                                                               Hit http://packages.microsoft.com stable/main amd64 Packages
-42% [2 InRelease 15.6 kB/65.9 kB 24%] [1 InRelease 40.2 kB/65.9 kB 61%] [Waitin42% [Packages 747 kB] [2 InRelease 15.6 kB/65.9 kB 24%] [1 InRelease 40.2 kB/6592% [2 InRelease 15.6 kB/65.9 kB 24%] [1 InRelease 43.1 kB/65.9 kB 65%] [Waitin                                                                               Hit http://extras.ubuntu.com trusty Release.gpg
-92% [2 InRelease 15.6 kB/65.9 kB 24%] [1 InRelease 43.1 kB/65.9 kB 65%] [Waitin96% [2 InRelease 31.5 kB/65.9 kB 48%] [Waiting for headers] [Waiting for header96% [1 InRelease gpgv 65.9 kB] [2 InRelease 31.5 kB/65.9 kB 48%] [Waiting for h97% [2 InRelease 37.3 kB/65.9 kB 57%] [Waiting for headers] [Waiting for header                                                                               Hit http://extras.ubuntu.com trusty Release
-98% [2 InRelease 47.4 kB/65.9 kB 72%] [Waiting for headers] [Waiting for header98% [Release gpgv 11.9 kB] [2 InRelease 47.4 kB/65.9 kB 72%] [Waiting for heade98% [2 InRelease 47.4 kB/65.9 kB 72%] [Waiting for headers] [Waiting for header                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [2 InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers] [Wa100% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting                                                                               Get:3 http://security.ubuntu.com trusty-security/main Sources [172 kB]
-84% [Waiting for headers] [3 Sources 0 B/172 kB 0%] [Waiting for headers] [Wait                                                                               Hit http://extras.ubuntu.com trusty/main Sources
-                                                                               87% [Waiting for headers] [3 Sources 31.5 kB/172 kB 18%] [Waiting for headers]                                                                              87% [Sources 0 B] [Waiting for headers] [3 Sources 31.5 kB/172 kB 18%] [Waiting87% [Waiting for headers] [3 Sources 31.5 kB/172 kB 18%] [Waiting for headers]                                                                                Hit http://in.archive.ubuntu.com trusty-backports InRelease
-                                                                               91% [3 Sources 73.4 kB/172 kB 43%] [Waiting for headers] [Waiting for headers]                                                                              91% [InRelease gpgv 65.9 kB] [Waiting for headers] [3 Sources 73.4 kB/172 kB 4391% [Waiting for headers] [3 Sources 73.4 kB/172 kB 43%] [Waiting for headers]                                                                                Hit http://extras.ubuntu.com trusty/main amd64 Packages
-                                                                               91% [Waiting for headers] [3 Sources 73.4 kB/172 kB 43%] [Waiting for headers]                                                                              91% [Packages 0 B] [Waiting for headers] [3 Sources 73.4 kB/172 kB 43%] [Waitin91% [Waiting for headers] [3 Sources 73.4 kB/172 kB 43%] [Waiting for headers]                                                                                Hit http://in.archive.ubuntu.com trusty Release.gpg
-                                                                               91% [3 Sources 73.4 kB/172 kB 43%] [Waiting for headers] [Waiting for headers]                                                                              100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://extras.ubuntu.com trusty/main i386 Packages
-                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting100% [3 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers] [Waiting100% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting                                                                               Get:4 http://in.archive.ubuntu.com trusty-updates/main Sources [430 kB]
-71% [4 Sources 0 B/430 kB 0%] [Waiting for headers] [Waiting for headers] [Wait                                                                               Get:5 http://security.ubuntu.com trusty-security/restricted Sources [4,931 B]
-73% [4 Sources 34.4 kB/430 kB 8%] [5 Sources 1,448 B/4,931 B 29%] [Waiting for                                                                                74% [4 Sources 37.3 kB/430 kB 9%] [Waiting for headers] [Waiting for headers]                                                                             74% [5 Sources bzip2 0 B] [4 Sources 37.3 kB/430 kB 9%] [Waiting for headers] [74% [4 Sources 40.2 kB/430 kB 9%] [Waiting for headers] [Waiting for headers] [                                                                               Ign http://packages.microsoft.com stable/main Translation-en_IN
-                                                                               79% [4 Sources 120 kB/430 kB 28%] [Waiting for headers] [Waiting for headers]                                                                             Get:6 http://security.ubuntu.com trusty-security/universe Sources [102 kB]
-                                                                             74% [4 Sources 126 kB/430 kB 29%] [6 Sources 0 B/102 kB 0%] [Waiting for header                                                                               83% [4 Sources 168 kB/430 kB 39%] [Waiting for headers] [Waiting for headers]                                                                             83% [6 Sources bzip2 0 B] [4 Sources 168 kB/430 kB 39%] [Waiting for headers] [85% [4 Sources 194 kB/430 kB 45%] [Waiting for headers] [Waiting for headers] [                                                                               Ign http://packages.microsoft.com stable/main Translation-en
-                                                                               85% [4 Sources 199 kB/430 kB 46%] [Waiting for headers] [Waiting for headers]                                                                             Get:7 http://security.ubuntu.com trusty-security/multiverse Sources [3,263 B]
-                                                                             97% [4 Sources 392 kB/430 kB 91%] [7 Sources 0 B/3,263 B 0%] [Waiting for heade                                                                               98% [4 Sources 395 kB/430 kB 92%] [Waiting for headers]                                                       98% [7 Sources bzip2 0 B] [4 Sources 395 kB/430 kB 92%] [Waiting for headers] [                                                                               98% [4 Sources 399 kB/430 kB 93%] [Waiting for headers] [Waiting for headers]                                                                             100% [Waiting for headers] [Waiting for headers]                                                100% [4 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers] [Waiting                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Get:8 http://security.ubuntu.com trusty-security/main amd64 Packages [831 kB]
-                                                                      66% [Waiting for headers] [8 Packages 1,448 B/831 kB 0%] [Waiting for headers]                                                                              Get:9 http://in.archive.ubuntu.com trusty-updates/restricted Sources [6,313 B]
-                                                                              87% [9 Sources 2,512 B/6,313 B 40%] [8 Packages 519 kB/831 kB 63%] [Waiting for                                                                               90% [8 Packages 585 kB/831 kB 70%] [Waiting for headers]                                                        90% [9 Sources bzip2 0 B] [Waiting for headers] [8 Packages 585 kB/831 kB 70%]                                                                                91% [Waiting for headers] [8 Packages 602 kB/831 kB 72%] [Waiting for headers]                                                                              100% [Waiting for headers] [Waiting for headers]                                                100% [8 Packages bzip2 0 B] [Waiting for headers] [Waiting for headers] [Waitin                                                                               Get:10 http://in.archive.ubuntu.com trusty-updates/universe Sources [231 kB]
-91% [8 Packages bzip2 0 B] [10 Sources 0 B/231 kB 0%] [Waiting for headers] [Wa                                                                               Get:11 http://security.ubuntu.com trusty-security/restricted amd64 Packages [14.2 kB]
-92% [8 Packages bzip2 0 B] [10 Sources 21.3 kB/231 kB 9%] [11 Packages 0 B/14.292% [8 Packages bzip2 0 B] [10 Sources 21.3 kB/231 kB 9%] [Waiting for headers]                                                                               Ign http://extras.ubuntu.com trusty/main Translation-en_IN
-92% [8 Packages bzip2 0 B] [10 Sources 27.1 kB/231 kB 12%] [Waiting for headers93% [10 Sources 51.7 kB/231 kB 22%] [Waiting for headers] [Waiting for headers]93% [11 Packages bzip2 0 B] [10 Sources 51.7 kB/231 kB 22%] [Waiting for header                                                                               Get:12 http://security.ubuntu.com trusty-security/universe amd64 Packages [293 kB]
-84% [11 Packages bzip2 0 B] [10 Sources 51.7 kB/231 kB 22%] [12 Packages 0 B/2988% [10 Sources 57.5 kB/231 kB 25%] [12 Packages 108 kB/293 kB 37%] [Waiting fo                                                                               94% [10 Sources 63.3 kB/231 kB 27%] [Waiting for headers]                                                         94% [12 Packages bzip2 0 B] [10 Sources 63.3 kB/231 kB 27%] [Waiting for header                                                                               Ign http://extras.ubuntu.com trusty/main Translation-en
-95% [12 Packages bzip2 0 B] [10 Sources 76.4 kB/231 kB 33%] [Waiting for header                                                                               96% [10 Sources 117 kB/231 kB 51%] [Waiting for headers]                                                        Get:13 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [4,806 B]
-                                                        97% [10 Sources 150 kB/231 kB 65%] [13 Packages 1,448 B/4,806 B 30%]                                                                    97% [10 Sources 150 kB/231 kB 65%]                                  97% [13 Packages bzip2 0 B] [10 Sources 150 kB/231 kB 65%]                                                          97% [10 Sources 153 kB/231 kB 66%] [Waiting for headers]                                                        100% [Waiting for headers]                          100% [10 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]                                                                       100% [Waiting for headers] [Waiting for headers]                                                Get:14 http://security.ubuntu.com trusty-security/main i386 Packages [747 kB]
-                                                80% [Waiting for headers] [14 Packages 0 B/747 kB 0%]                                                     Get:15 http://in.archive.ubuntu.com trusty-updates/multiverse Sources [7,535 B]
-                                                     93% [15 Sources 0 B/7,535 B 0%] [14 Packages 480 kB/747 kB 64%]                                                               93% [14 Packages 502 kB/747 kB 67%]                                   93% [15 Sources bzip2 0 B] [14 Packages 502 kB/747 kB 67%]                                                          94% [Waiting for headers] [14 Packages 528 kB/747 kB 71%]                                                         100% [Waiting for headers]                          100% [14 Packages bzip2 0 B] [Waiting for headers] [Waiting for headers]                                                                        Get:16 http://in.archive.ubuntu.com trusty-updates/main amd64 Packages [1,166 kB]
-                                                                        76% [14 Packages bzip2 0 B] [16 Packages 0 B/1,166 kB 0%] [Waiting for headers]                                                                               Get:17 http://security.ubuntu.com trusty-security/restricted i386 Packages [13.9 kB]
-78% [14 Packages bzip2 0 B] [16 Packages 126 kB/1,166 kB 11%] [17 Packages 0 B/                                                                               79% [14 Packages bzip2 0 B] [16 Packages 131 kB/1,166 kB 11%]                                                             86% [16 Packages 472 kB/1,166 kB 40%] [Waiting for headers]                                                           Get:18 http://security.ubuntu.com trusty-security/universe i386 Packages [276 kB]
-                                                           82% [16 Packages 472 kB/1,166 kB 40%] [18 Packages 35.8 kB/276 kB 13%]                                                                      82% [17 Packages bzip2 0 B] [16 Packages 473 kB/1,166 kB 41%] [18 Packages 35.8                                                                               83% [16 Packages 482 kB/1,166 kB 41%] [18 Packages 80.7 kB/276 kB 29%]                                                                      88% [16 Packages 546 kB/1,166 kB 47%]                                     88% [18 Packages bzip2 0 B] [16 Packages 550 kB/1,166 kB 47%] [Waiting for head                                                                               97% [16 Packages 993 kB/1,166 kB 85%] [Waiting for headers]                                                           100% [Waiting for headers]                          100% [16 Packages bzip2 0 B] [Waiting for headers] [Waiting for headers]                                                                        Get:19 http://security.ubuntu.com trusty-security/multiverse i386 Packages [4,969 B]
-                                                                        100% [16 Packages bzip2 0 B] [Waiting for headers] [19 Packages 0 B/4,969 B 0%]                                                                               100% [16 Packages bzip2 0 B] [Waiting for headers]                                                  Get:20 http://in.archive.ubuntu.com trusty-updates/restricted amd64 Packages [17.2 kB]
-                                                  100% [16 Packages bzip2 0 B] [20 Packages 0 B/17.2 kB 0%] [Waiting for headers]                                                                               100% [16 Packages bzip2 0 B] [Waiting for headers]                                                  Hit http://security.ubuntu.com trusty-security/main Translation-en
-100% [16 Packages bzip2 0 B] [Waiting for headers]                                                  100% [16 Packages bzip2 0 B] [Translation-en 7,536 kB] [Waiting for headers] [W                                                                               Get:21 http://in.archive.ubuntu.com trusty-updates/universe amd64 Packages [523 kB]
-91% [16 Packages bzip2 0 B] [Translation-en 7,536 kB] [21 Packages 0 B/523 kB 0                                                                               100% [16 Packages bzip2 0 B] [Translation-en 7,536 kB] [Waiting for headers]                                                                            Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
-100% [16 Packages bzip2 0 B] [Translation-en 7,536 kB] [Waiting for headers]                                                                            100% [16 Packages bzip2 0 B] [Waiting for headers] [Waiting for headers]                                                                        100% [16 Packages bzip2 0 B] [Translation-en 8,632 B] [Waiting for headers] [Wa                                                                               100% [16 Packages bzip2 0 B] [Waiting for headers] [Waiting for headers]                                                                        100% [Waiting for headers] [Waiting for headers]                                                Get:22 http://in.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.6 kB]
-                                                100% [22 Packages 14.6 kB/14.6 kB 100%] [Waiting for headers]                                                             100% [19 Packages bzip2 0 B] [22 Packages 14.6 kB/14.6 kB 100%] [Waiting for he                                                                               100% [19 Packages bzip2 0 B] [Waiting for headers]                                                  100% [Waiting for headers] [Waiting for headers]                                                100% [20 Packages bzip2 0 B] [Waiting for headers] [Waiting for headers]                                                                        Hit http://security.ubuntu.com trusty-security/restricted Translation-en
-                                                                        100% [20 Packages bzip2 0 B] [Waiting for headers]                                                  100% [20 Packages bzip2 0 B] [Translation-en 26.0 kB] [Waiting for headers] [Wa                                                                               100% [Translation-en 26.0 kB] [Waiting for headers] [Waiting for headers]                                                                         100% [21 Packages bzip2 0 B] [Translation-en 26.0 kB] [Waiting for headers] [Wa                                                                               100% [21 Packages bzip2 0 B] [Waiting for headers] [Waiting for headers]                                                                        Get:23 http://in.archive.ubuntu.com trusty-updates/main i386 Packages [1,082 kB]
-                                                                        92% [21 Packages bzip2 0 B] [23 Packages 0 B/1,082 kB 0%] [Waiting for headers]                                                                               Hit http://security.ubuntu.com trusty-security/universe Translation-en
-                                                                               95% [21 Packages bzip2 0 B] [23 Packages 301 kB/1,082 kB 28%]                                                             95% [21 Packages bzip2 0 B] [Translation-en 912 kB] [23 Packages 301 kB/1,082 k                                                                               97% [Translation-en 912 kB] [23 Packages 674 kB/1,082 kB 62%]                                                             97% [22 Packages bzip2 0 B] [Translation-en 912 kB] [23 Packages 677 kB/1,082 k                                                                               98% [Translation-en 912 kB] [23 Packages 760 kB/1,082 kB 70%]                                                             100% [Translation-en 912 kB]                            100% [23 Packages bzip2 0 B] [Translation-en 912 kB] [Waiting for headers]                                                                          100% [23 Packages bzip2 0 B] [Waiting for headers]                                                  Get:24 http://in.archive.ubuntu.com trusty-updates/restricted i386 Packages [17.0 kB]
-                                                  100% [23 Packages bzip2 0 B] [24 Packages 0 B/17.0 kB 0%]                                                         100% [23 Packages bzip2 0 B]                            Get:25 http://in.archive.ubuntu.com trusty-updates/universe i386 Packages [504 kB]
-                            97% [23 Packages bzip2 0 B] [25 Packages 0 B/504 kB 0%]                                                       100% [23 Packages bzip2 0 B]                            100% [Waiting for headers]                          100% [24 Packages bzip2 0 B] [Waiting for headers]                                                  100% [Waiting for headers]                          100% [25 Packages bzip2 0 B] [Waiting for headers]                                                  Get:26 http://in.archive.ubuntu.com trusty-updates/multiverse i386 Packages [15.1 kB]
-                                                  100% [25 Packages bzip2 0 B] [26 Packages 0 B/15.1 kB 0%]                                                         100% [25 Packages bzip2 0 B]                            100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-updates/main Translation-en
-100% [Waiting for headers]                          100% [26 Packages bzip2 0 B] [Waiting for headers]                                                  100% [26 Packages bzip2 0 B] [Translation-en 8,704 kB] [Waiting for headers]                                                                            100% [Translation-en 8,704 kB] [Waiting for headers]                                                    Hit http://in.archive.ubuntu.com trusty-updates/multiverse Translation-en
-                                                    100% [Translation-en 8,704 kB]                              100% [Waiting for headers]                          100% [Translation-en 32.4 kB] [Waiting for headers]                                                   100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-updates/restricted Translation-en
-                          100% [Working]              100% [Translation-en 28.6 kB] [Waiting for headers]                                                   100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-updates/universe Translation-en
-                          100% [Working]              100% [Translation-en 1,493 kB] [Waiting for headers]                                                    100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/main Sources
-                          100% [Working]              100% [Sources 34.0 kB] [Waiting for headers]                                            100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/restricted Sources
-                          100% [Working]                                                    4,274 kB/s 0s100% [Sources 0 B] [Waiting for headers]                          4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/universe Sources
-100% [Working]                                                    4,274 kB/s 0s100% [Sources 141 kB] [Waiting for headers]                       4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/multiverse Sources
-100% [Working]                                                    4,274 kB/s 0s100% [Sources 4,444 B] [Waiting for headers]                      4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/main amd64 Packages
-100% [Waiting for headers]                                        4,274 kB/s 0s100% [Packages 59.1 kB] [Waiting for headers]                     4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/restricted amd64 Packages
-100% [Working]                                                    4,274 kB/s 0s100% [Packages 0 B] [Waiting for headers]                         4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/universe amd64 Packages
-100% [Working]                                                    4,274 kB/s 0s100% [Packages 220 kB] [Waiting for headers]                      4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
-100% [Working]                                                    4,274 kB/s 0s100% [Packages 3,396 B] [Waiting for headers]                     4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/main i386 Packages
-100% [Working]                                                    4,274 kB/s 0s100% [Packages 59.0 kB] [Waiting for headers]                     4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/restricted i386 Packages
-100% [Working]                                                    4,274 kB/s 0s100% [Packages 0 B] [Waiting for headers]                         4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/universe i386 Packages
-100% [Working]                                                    4,274 kB/s 0s100% [Packages 219 kB] [Waiting for headers]                      4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/multiverse i386 Packages
-100% [Working]                                                    4,274 kB/s 0s100% [Packages 3,341 B] [Waiting for headers]                     4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/main Translation-en
-100% [Working]                                                    4,274 kB/s 0s100% [Translation-en 28.1 kB] [Waiting for headers]               4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/multiverse Translation-en
-100% [Working]                                                    4,274 kB/s 0s100% [Translation-en 2,242 B] [Waiting for headers]               4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/restricted Translation-en
-100% [Working]                                                    4,274 kB/s 0s100% [Translation-en 0 B] [Waiting for headers]                   4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/universe Translation-en
-100% [Working]                                                    4,274 kB/s 0s100% [Translation-en 155 kB] [Waiting for headers]                4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty Release
-100% [Working]                                                    4,274 kB/s 0s100% [Release gpgv 58.5 kB]                                       4,274 kB/s 0s100% [Working]                                                    4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/main Sources
-100% [Working]                                                    4,274 kB/s 0s100% [Sources 5,000 kB]                                           4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/restricted Sources
-100% [Working]                                                    4,274 kB/s 0s100% [Sources 22.9 kB] [Waiting for headers]                      4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/universe Sources
-100% [Working]                                                    4,274 kB/s 0s100% [Sources 27.9 MB] [Waiting for headers]                      4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/multiverse Sources
-100% [Sources 27.9 MB] [Waiting for headers]                      4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/main amd64 Packages
-100% [Sources 27.9 MB]                                            4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/restricted amd64 Packages
-100% [Sources 27.9 MB]                                            4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/universe amd64 Packages
-100% [Sources 27.9 MB]                                            4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Sources 711 kB] [Waiting for headers]                       4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Packages 8,235 kB] [Waiting for headers]                    4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/multiverse amd64 Packages
-100% [Packages 8,235 kB]                                          4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Packages 184 kB] [Waiting for headers]                      4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Packages 31.7 MB] [Waiting for headers]                     4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/main i386 Packages
-100% [Packages 31.7 MB]                                           4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/restricted i386 Packages
-100% [Packages 31.7 MB]                                           4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/universe i386 Packages
-100% [Packages 31.7 MB]                                           4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/multiverse i386 Packages
-100% [Packages 31.7 MB]                                           4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/main Translation-en
-100% [Packages 31.7 MB]                                           4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Packages 664 kB] [Waiting for headers]                      4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Packages 8,205 kB] [Waiting for headers]                    4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/multiverse Translation-en
-100% [Packages 8,205 kB]                                          4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Packages 185 kB] [Waiting for headers]                      4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Packages 31.7 MB] [Waiting for headers]                     4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/restricted Translation-en
-100% [Packages 31.7 MB]                                           4,274 kB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/universe Translation-en
-100% [Packages 31.7 MB]                                           4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Packages 674 kB] [Waiting for headers]                      4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Translation-en 4,149 kB] [Waiting for headers]              4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Translation-en 409 kB] [Waiting for headers]                4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Translation-en 21.2 kB] [Waiting for headers]               4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Translation-en 18.6 MB] [Waiting for headers]               4,274 kB/s 0s100% [Waiting for headers]                                        4,274 kB/s 0s100% [Waiting for headers]                                         21.6 MB/s 0s100% [Waiting for headers]                                         21.6 MB/s 0s                                                                               Ign http://in.archive.ubuntu.com trusty/main Translation-en_IN
-100% [Working]                                                     21.6 MB/s 0s                                                                               Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_IN
-100% [Working]                                                     21.6 MB/s 0s                                                                               Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_IN
-100% [Working]                                                     21.6 MB/s 0s                                                                               Ign http://in.archive.ubuntu.com trusty/universe Translation-en_IN
-100% [Working]                                                     21.6 MB/s 0s                                                                               Fetched 6,611 kB in 13s (477 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 21%Reading package lists... 24%Reading package lists... 24%Reading package lists... 24%Reading package lists... 24%Reading package lists... 29%Reading package lists... 29%Reading package lists... 30%Reading package lists... 30%Reading package lists... 44%Reading package lists... 49%Reading package lists... 49%Reading package lists... 49%Reading package lists... 49%Reading package lists... 52%Reading package lists... 52%Reading package lists... 52%Reading package lists... 52%Reading package lists... 52%Reading package lists... 52%Reading package lists... 63%Reading package lists... 63%Reading package lists... 65%Reading package lists... 68%Reading package lists... 68%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 71%Reading package lists... 71%Reading package lists... 73%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 79%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... Done
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get i[Kupgraffd[K[K[Kde
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-Calculating upgrade... Done
-The following packages were automatically installed and are no longer required:
-  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libqpdf13 libupstart1
-  python-ntdb
-Use 'apt-get autoremove' to remove them.
-The following packages will be upgraded:
-  gir1.2-gudev-1.0 grub-common grub-pc grub-pc-bin grub2-common libgudev-1.0-0
-  libpam-systemd libsmbclient libsystemd-daemon0 libsystemd-journal0
-  libsystemd-login0 libudev1 libwbclient0 openjdk-7-jdk openjdk-7-jre
-  openjdk-7-jre-headless python-samba samba-common samba-common-bin samba-libs
-  smbclient systemd systemd-services udev wget wpasupplicant
-26 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 69.7 MB of archives.
-After this operation, 113 kB of additional disk space will be used.
-Do you want to continue? [Y/n] y
-0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main udev amd64 204-5ubuntu20.31 [736 kB]
-            0% [1 udev 8,349 B/736 kB 1%]0% [1 udev 156 kB/736 kB 21%]                             1% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libudev1 amd64 204-5ubuntu20.31 [34.1 kB]
-            1% [2 libudev1 18.5 kB/34.1 kB 54%]                                   1% [Working]            Get:3 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libpam-systemd amd64 204-5ubuntu20.31 [25.5 kB]
-            1% [3 libpam-systemd 15.2 kB/25.5 kB 60%]                                         1% [Working]            Get:4 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main systemd-services amd64 204-5ubuntu20.31 [197 kB]
-            1% [4 systemd-services 1,028 B/197 kB 1%]                                         1% [Working]            Get:5 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main systemd amd64 204-5ubuntu20.31 [1,426 kB]
-            1% [5 systemd 0 B/1,426 kB 0%]                              3% [Working]            Get:6 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libsystemd-journal0 amd64 204-5ubuntu20.31 [50.5 kB]
-            3% [6 libsystemd-journal0 1,030 B/50.5 kB 2%]                                             4% [Working]            Get:7 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libsystemd-login0 amd64 204-5ubuntu20.31 [27.7 kB]
-            4% [7 libsystemd-login0 2,478 B/27.7 kB 9%]                                           4% [Working]            Get:8 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libsystemd-daemon0 amd64 204-5ubuntu20.31 [10.7 kB]
-            4% [8 libsystemd-daemon0 1,030 B/10.7 kB 10%]                                             4% [Working]            Get:9 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libgudev-1.0-0 amd64 1:204-5ubuntu20.31 [14.1 kB]
-            4% [9 libgudev-1.0-0 0 B/14.1 kB 0%]                                    4% [Working]            Get:10 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libwbclient0 amd64 2:4.3.11+dfsg-0ubuntu0.14.04.20 [30.3 kB]
-            4% [10 libwbclient0 0 B/30.3 kB 0%]                                   4% [Working]            Get:11 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libsmbclient amd64 2:4.3.11+dfsg-0ubuntu0.14.04.20 [53.2 kB]
-            4% [11 libsmbclient 0 B/53.2 kB 0%]                                   4% [Working]            Get:12 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main smbclient amd64 2:4.3.11+dfsg-0ubuntu0.14.04.20 [313 kB]
-            4% [12 smbclient 0 B/313 kB 0%]                               4% [12 smbclient 273 kB/313 kB 87%]4% [12 smbclient 281 kB/313 kB 90%]                                   4% [Working]            Get:13 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main samba-common-bin amd64 2:4.3.11+dfsg-0ubuntu0.14.04.20 [508 kB]
-            4% [13 samba-common-bin 0 B/508 kB 0%]                                      5% [Working]            Get:14 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main python-samba amd64 2:4.3.11+dfsg-0ubuntu0.14.04.20 [1,070 kB]
-            5% [14 python-samba 1,108 B/1,070 kB 0%]                                        6% [Working]            Get:15 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main samba-libs amd64 2:4.3.11+dfsg-0ubuntu0.14.04.20 [5,129 kB]
-            6% [15 samba-libs 0 B/5,129 kB 0%]                                  11% [15 samba-libs 3,113 kB/5,129 kB 61%]12% [15 samba-libs 4,016 kB/5,129 kB 78%]                                         14% [Working]             Get:16 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main samba-common all 2:4.3.11+dfsg-0ubuntu0.14.04.20 [84.1 kB]
-             14% [16 samba-common 0 B/84.1 kB 0%]                                    14% [Working]             Get:17 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main wget amd64 1.15-1ubuntu1.14.04.5 [270 kB]
-             14% [17 wget 0 B/270 kB 0%]                           14% [Working]             Get:18 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main gir1.2-gudev-1.0 amd64 1:204-5ubuntu20.31 [5,488 B]
-             14% [18 gir1.2-gudev-1.0 1,113 B/5,488 B 20%]                    1,649 kB/s 36s14% [Working]                                                    1,649 kB/s 36s                                                                               Get:19 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main grub-pc amd64 2.02~beta2-9ubuntu1.17 [174 kB]
-14% [19 grub-pc 0 B/174 kB 0%]                                   1,649 kB/s 36s15% [Working]                                                    1,649 kB/s 36s                                                                               Get:20 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main grub-pc-bin amd64 2.02~beta2-9ubuntu1.17 [883 kB]
-15% [20 grub-pc-bin 1,110 B/883 kB 0%]                           1,649 kB/s 36s16% [Working]                                                    1,649 kB/s 35s                                                                               Get:21 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main grub2-common amd64 2.02~beta2-9ubuntu1.17 [500 kB]
-16% [21 grub2-common 1,110 B/500 kB 0%]                          1,649 kB/s 35s17% [Working]                                                    1,649 kB/s 35s                                                                               Get:22 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main grub-common amd64 2.02~beta2-9ubuntu1.17 [1,680 kB]
-17% [22 grub-common 0 B/1,680 kB 0%]                             1,649 kB/s 35s19% [Working]                                                    1,649 kB/s 34s                                                                               Get:23 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main openjdk-7-jdk amd64 7u211-2.6.17-0ubuntu0.1 [16.0 MB]
-19% [23 openjdk-7-jdk 0 B/16.0 MB 0%]                            1,649 kB/s 34s24% [23 openjdk-7-jdk 3,821 kB/16.0 MB 24%]                      1,649 kB/s 31s30% [23 openjdk-7-jdk 7,603 kB/16.0 MB 48%]                      1,649 kB/s 29s36% [23 openjdk-7-jdk 11.9 MB/16.0 MB 74%]                       1,649 kB/s 27s41% [23 openjdk-7-jdk 15.6 MB/16.0 MB 98%]                       1,649 kB/s 24s42% [Working]                                                    1,649 kB/s 24s                                                                               Get:24 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main openjdk-7-jre amd64 7u211-2.6.17-0ubuntu0.1 [172 kB]
-42% [24 openjdk-7-jre 0 B/172 kB 0%]                             1,649 kB/s 24s42% [Working]                                                    1,649 kB/s 24s                                                                               Get:25 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main openjdk-7-jre-headless amd64 7u211-2.6.17-0ubuntu0.1 [39.6 MB]
-42% [25 openjdk-7-jre-headless 0 B/39.6 MB 0%]                   1,649 kB/s 24s46% [25 openjdk-7-jre-headless 2,482 kB/39.6 MB 6%]              1,649 kB/s 22s53% [25 openjdk-7-jre-headless 7,484 kB/39.6 MB 19%]             1,649 kB/s 19s58% [25 openjdk-7-jre-headless 10.9 MB/39.6 MB 27%]              1,649 kB/s 17s63% [25 openjdk-7-jre-headless 14.9 MB/39.6 MB 38%]              1,649 kB/s 15s69% [25 openjdk-7-jre-headless 19.0 MB/39.6 MB 48%]               5,901 kB/s 3s74% [25 openjdk-7-jre-headless 22.0 MB/39.6 MB 56%]               5,901 kB/s 3s81% [25 openjdk-7-jre-headless 27.1 MB/39.6 MB 68%]               5,901 kB/s 2s88% [25 openjdk-7-jre-headless 31.8 MB/39.6 MB 80%]               5,901 kB/s 1s94% [25 openjdk-7-jre-headless 36.2 MB/39.6 MB 91%]               5,901 kB/s 0s99% [Working]                                                     5,901 kB/s 0s                                                                               Get:26 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main wpasupplicant amd64 2.1-0ubuntu1.7 [750 kB]
-99% [26 wpasupplicant 0 B/750 kB 0%]                              5,901 kB/s 0s100% [Working]                                                    5,901 kB/s 0s                                                                               Fetched 69.7 MB in 15s (4,630 kB/s)
-Preconfiguring packages ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 202707 files and directories currently installed.)
-Preparing to unpack .../udev_204-5ubuntu20.31_amd64.deb ...
-Adding 'diversion of /bin/udevadm to /bin/udevadm.upgrade by fake-udev'
-Unpacking udev (204-5ubuntu20.31) over (204-5ubuntu20.29) ...
-Preparing to unpack .../libudev1_204-5ubuntu20.31_amd64.deb ...
-Unpacking libudev1:amd64 (204-5ubuntu20.31) over (204-5ubuntu20.29) ...
-Preparing to unpack .../libpam-systemd_204-5ubuntu20.31_amd64.deb ...
-Unpacking libpam-systemd:amd64 (204-5ubuntu20.31) over (204-5ubuntu20.29) ...
-Preparing to unpack .../systemd-services_204-5ubuntu20.31_amd64.deb ...
-Unpacking systemd-services (204-5ubuntu20.31) over (204-5ubuntu20.29) ...
-Preparing to unpack .../systemd_204-5ubuntu20.31_amd64.deb ...
-Unpacking systemd (204-5ubuntu20.31) over (204-5ubuntu20.29) ...
-Preparing to unpack .../libsystemd-journal0_204-5ubuntu20.31_amd64.deb ...
-Unpacking libsystemd-journal0:amd64 (204-5ubuntu20.31) over (204-5ubuntu20.29) ...
-Preparing to unpack .../libsystemd-login0_204-5ubuntu20.31_amd64.deb ...
-Unpacking libsystemd-login0:amd64 (204-5ubuntu20.31) over (204-5ubuntu20.29) ...
-Preparing to unpack .../libsystemd-daemon0_204-5ubuntu20.31_amd64.deb ...
-Unpacking libsystemd-daemon0:amd64 (204-5ubuntu20.31) over (204-5ubuntu20.29) ...
-Preparing to unpack .../libgudev-1.0-0_1%3a204-5ubuntu20.31_amd64.deb ...
-Unpacking libgudev-1.0-0:amd64 (1:204-5ubuntu20.31) over (1:204-5ubuntu20.29) ...
-Preparing to unpack .../libwbclient0_2%3a4.3.11+dfsg-0ubuntu0.14.04.20_amd64.deb ...
-Unpacking libwbclient0:amd64 (2:4.3.11+dfsg-0ubuntu0.14.04.20) over (2:4.3.11+dfsg-0ubuntu0.14.04.19) ...
-Preparing to unpack .../libsmbclient_2%3a4.3.11+dfsg-0ubuntu0.14.04.20_amd64.deb ...
-Unpacking libsmbclient:amd64 (2:4.3.11+dfsg-0ubuntu0.14.04.20) over (2:4.3.11+dfsg-0ubuntu0.14.04.19) ...
-Preparing to unpack .../smbclient_2%3a4.3.11+dfsg-0ubuntu0.14.04.20_amd64.deb ...
-Unpacking smbclient (2:4.3.11+dfsg-0ubuntu0.14.04.20) over (2:4.3.11+dfsg-0ubuntu0.14.04.19) ...
-Preparing to unpack .../samba-common-bin_2%3a4.3.11+dfsg-0ubuntu0.14.04.20_amd64.deb ...
-Unpacking samba-common-bin (2:4.3.11+dfsg-0ubuntu0.14.04.20) over (2:4.3.11+dfsg-0ubuntu0.14.04.19) ...
-Preparing to unpack .../python-samba_2%3a4.3.11+dfsg-0ubuntu0.14.04.20_amd64.deb ...
-Unpacking python-samba (2:4.3.11+dfsg-0ubuntu0.14.04.20) over (2:4.3.11+dfsg-0ubuntu0.14.04.19) ...
-Preparing to unpack .../samba-libs_2%3a4.3.11+dfsg-0ubuntu0.14.04.20_amd64.deb ...
-Unpacking samba-libs:amd64 (2:4.3.11+dfsg-0ubuntu0.14.04.20) over (2:4.3.11+dfsg-0ubuntu0.14.04.19) ...
-Preparing to unpack .../samba-common_2%3a4.3.11+dfsg-0ubuntu0.14.04.20_all.deb ...
-Unpacking samba-common (2:4.3.11+dfsg-0ubuntu0.14.04.20) over (2:4.3.11+dfsg-0ubuntu0.14.04.19) ...
-Preparing to unpack .../wget_1.15-1ubuntu1.14.04.5_amd64.deb ...
-Unpacking wget (1.15-1ubuntu1.14.04.5) over (1.15-1ubuntu1.14.04.4) ...
-Preparing to unpack .../gir1.2-gudev-1.0_1%3a204-5ubuntu20.31_amd64.deb ...
-Unpacking gir1.2-gudev-1.0 (1:204-5ubuntu20.31) over (1:204-5ubuntu20.29) ...
-Preparing to unpack .../grub-pc_2.02~beta2-9ubuntu1.17_amd64.deb ...
-Unpacking grub-pc (2.02~beta2-9ubuntu1.17) over (2.02~beta2-9ubuntu1.16) ...
-Preparing to unpack .../grub-pc-bin_2.02~beta2-9ubuntu1.17_amd64.deb ...
-Unpacking grub-pc-bin (2.02~beta2-9ubuntu1.17) over (2.02~beta2-9ubuntu1.16) ...
-Preparing to unpack .../grub2-common_2.02~beta2-9ubuntu1.17_amd64.deb ...
-Unpacking grub2-common (2.02~beta2-9ubuntu1.17) over (2.02~beta2-9ubuntu1.16) ...
-Preparing to unpack .../grub-common_2.02~beta2-9ubuntu1.17_amd64.deb ...
-Unpacking grub-common (2.02~beta2-9ubuntu1.17) over (2.02~beta2-9ubuntu1.16) ...
-Preparing to unpack .../openjdk-7-jdk_7u211-2.6.17-0ubuntu0.1_amd64.deb ...
-Unpacking openjdk-7-jdk:amd64 (7u211-2.6.17-0ubuntu0.1) over (7u181-2.6.14-0ubuntu0.3) ...
-Preparing to unpack .../openjdk-7-jre_7u211-2.6.17-0ubuntu0.1_amd64.deb ...
-Unpacking openjdk-7-jre:amd64 (7u211-2.6.17-0ubuntu0.1) over (7u181-2.6.14-0ubuntu0.3) ...
-Preparing to unpack .../openjdk-7-jre-headless_7u211-2.6.17-0ubuntu0.1_amd64.deb ...
-Unpacking openjdk-7-jre-headless:amd64 (7u211-2.6.17-0ubuntu0.1) over (7u181-2.6.14-0ubuntu0.3) ...
-Preparing to unpack .../wpasupplicant_2.1-0ubuntu1.7_amd64.deb ...
-Unpacking wpasupplicant (2.1-0ubuntu1.7) over (2.1-0ubuntu1.6) ...
-Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
-Processing triggers for ureadahead (0.100.0-16) ...
-Processing triggers for install-info (5.2.0.dfsg.1-2) ...
-Processing triggers for desktop-file-utils (0.22-1ubuntu1.1) ...
-Processing triggers for gnome-menus (3.10.1-0ubuntu2) ...
-Processing triggers for bamfdaemon (0.5.1+14.04.20140409-0ubuntu1) ...
-Rebuilding /usr/share/applications/bamf-2.index...
-Processing triggers for mime-support (3.54ubuntu1.1) ...
-Processing triggers for hicolor-icon-theme (0.13-1) ...
-Setting up libudev1:amd64 (204-5ubuntu20.31) ...
-Setting up udev (204-5ubuntu20.31) ...
-udev stop/waiting
-udev start/running, process 12350
-Removing 'diversion of /bin/udevadm to /bin/udevadm.upgrade by fake-udev'
-update-initramfs: deferring update (trigger activated)
-Setting up libsystemd-daemon0:amd64 (204-5ubuntu20.31) ...
-Setting up systemd-services (204-5ubuntu20.31) ...
-Setting up libpam-systemd:amd64 (204-5ubuntu20.31) ...
-Setting up libsystemd-journal0:amd64 (204-5ubuntu20.31) ...
-Setting up libsystemd-login0:amd64 (204-5ubuntu20.31) ...
-Setting up systemd (204-5ubuntu20.31) ...
-Setting up libgudev-1.0-0:amd64 (1:204-5ubuntu20.31) ...
-Setting up libwbclient0:amd64 (2:4.3.11+dfsg-0ubuntu0.14.04.20) ...
-Setting up samba-libs:amd64 (2:4.3.11+dfsg-0ubuntu0.14.04.20) ...
-Setting up libsmbclient:amd64 (2:4.3.11+dfsg-0ubuntu0.14.04.20) ...
-Setting up samba-common (2:4.3.11+dfsg-0ubuntu0.14.04.20) ...
-Setting up smbclient (2:4.3.11+dfsg-0ubuntu0.14.04.20) ...
-Setting up python-samba (2:4.3.11+dfsg-0ubuntu0.14.04.20) ...
-Setting up samba-common-bin (2:4.3.11+dfsg-0ubuntu0.14.04.20) ...
-Setting up wget (1.15-1ubuntu1.14.04.5) ...
-Setting up gir1.2-gudev-1.0 (1:204-5ubuntu20.31) ...
-Setting up grub-common (2.02~beta2-9ubuntu1.17) ...
-Setting up grub2-common (2.02~beta2-9ubuntu1.17) ...
-Setting up grub-pc-bin (2.02~beta2-9ubuntu1.17) ...
-Setting up grub-pc (2.02~beta2-9ubuntu1.17) ...
-Installing for i386-pc platform.
-Installation finished. No error reported.
-Generating grub configuration file ...
-Found linux image: /boot/vmlinuz-3.16.0-77-generic
-Found initrd image: /boot/initrd.img-3.16.0-77-generic
-Found linux image: /boot/vmlinuz-3.16.0-30-generic
-Found initrd image: /boot/initrd.img-3.16.0-30-generic
-Found memtest86+ image: /boot/memtest86+.elf
-Found memtest86+ image: /boot/memtest86+.bin
-Found Windows 7 (loader) on /dev/sda1
-done
-Setting up openjdk-7-jre-headless:amd64 (7u211-2.6.17-0ubuntu0.1) ...
-Installing new version of config file /etc/java-7-openjdk/tz.properties ...
-Installing new version of config file /etc/java-7-openjdk/security/java.security ...
-Installing new version of config file /etc/java-7-openjdk/net.properties ...
-Setting up openjdk-7-jre:amd64 (7u211-2.6.17-0ubuntu0.1) ...
-Setting up openjdk-7-jdk:amd64 (7u211-2.6.17-0ubuntu0.1) ...
-Setting up wpasupplicant (2.1-0ubuntu1.7) ...
-Processing triggers for libc-bin (2.19-0ubuntu6.15) ...
-Processing triggers for initramfs-tools (0.103ubuntu4.11) ...
-update-initramfs: Generating /boot/initrd.img-3.16.0-77-generic
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ [K]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ apy[Kt-GE[K[Kget istall l[Kvla[Kc
-E: Invalid operation istall
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get inas=[K[K[Kstla[K[Kall vlxc[K[Kc
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-The following packages were automatically installed and are no longer required:
-  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libqpdf13 libupstart1
-  python-ntdb
-Use 'apt-get autoremove' to remove them.
-The following extra packages will be installed:
-  liba52-0.7.4 libaacs0 libass4 libavcodec54 libavformat54 libavutil52
-  libbasicusageenvironment0 libbluray1 libcddb2 libchromaprint0 libcrystalhd3
-  libdc1394-22 libdca0 libdirac-encoder0 libdirectfb-1.2-9 libdvbpsi8
-  libdvdnav4 libdvdread4 libebml4 libenca0 libfaad2 libgnutls28 libgroupsock1
-  libgsm1 libhogweed2 libiso9660-8 libkate1 liblivemedia23 libmad0
-  libmatroska6 libmodplug1 libmp3lame0 libmpcdec6 libmpeg2-4 libopenjpeg2
-  libopus0 libpostproc52 libproxy-tools libresid-builder0c2a
-  libschroedinger-1.0-0 libsdl-image1.2 libsdl1.2debian libsidplay2 libssh2-1
-  libswscale2 libtar0 libts-0.0-0 libtwolame0 libupnp6 libusageenvironment1
-  libva-x11-1 libva1 libvcdinfo0 libvlc5 libvlccore7 libx264-142
-  libxcb-composite0 libxcb-xv0 libxvidcore4 libzvbi-common libzvbi0 tsconf
-  vlc-data vlc-nox vlc-plugin-notify vlc-plugin-pulse
-Suggested packages:
-  libbluray-bdj libchromaprint-tools python-acoustid firmware-crystalhd
-  libdvdcss2 debhelper gnutls-bin opus-tools videolan-doc
-The following NEW packages will be installed:
-  liba52-0.7.4 libaacs0 libass4 libavcodec54 libavformat54 libavutil52
-  libbasicusageenvironment0 libbluray1 libcddb2 libchromaprint0 libcrystalhd3
-  libdc1394-22 libdca0 libdirac-encoder0 libdirectfb-1.2-9 libdvbpsi8
-  libdvdnav4 libdvdread4 libebml4 libenca0 libfaad2 libgnutls28 libgroupsock1
-  libgsm1 libhogweed2 libiso9660-8 libkate1 liblivemedia23 libmad0
-  libmatroska6 libmodplug1 libmp3lame0 libmpcdec6 libmpeg2-4 libopenjpeg2
-  libopus0 libpostproc52 libproxy-tools libresid-builder0c2a
-  libschroedinger-1.0-0 libsdl-image1.2 libsdl1.2debian libsidplay2 libssh2-1
-  libswscale2 libtar0 libts-0.0-0 libtwolame0 libupnp6 libusageenvironment1
-  libva-x11-1 libva1 libvcdinfo0 libvlc5 libvlccore7 libx264-142
-  libxcb-composite0 libxcb-xv0 libxvidcore4 libzvbi-common libzvbi0 tsconf vlc
-  vlc-data vlc-nox vlc-plugin-notify vlc-plugin-pulse
-0 upgraded, 67 newly installed, 0 to remove and 0 not upgraded.
-Need to get 17.4 MB of archives.
-After this operation, 72.2 MB of additional disk space will be used.
-Do you want to continue? [Y/n] y
-0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libaacs0 amd64 0.7.0-1 [47.3 kB]
-            0% [1 libaacs0 5,455 B/47.3 kB 12%]                                   0% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libavutil52 amd64 6:9.20-0ubuntu0.14.04.1 [66.9 kB]
-            0% [2 libavutil52 0 B/66.9 kB 0%]                                 1% [Working]            Get:3 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libgsm1 amd64 1.0.13-4 [27.1 kB]
-            1% [3 libgsm1 3,760 B/27.1 kB 14%]                                  1% [Working]            Get:4 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libmp3lame0 amd64 3.99.5+repack1-3ubuntu1 [158 kB]
-            1% [4 libmp3lame0 1,110 B/158 kB 1%]                                    2% [Working]            Get:5 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libopenjpeg2 amd64 1.3+dfsg-4.7ubuntu1 [64.3 kB]
-            2% [5 libopenjpeg2 0 B/64.3 kB 0%]                                  2% [Working]            Get:6 http://in.archive.ubuntu.com/ubuntu/ trusty/main libopus0 amd64 1.1-0ubuntu1 [153 kB]
-            2% [6 libopus0 22.8 kB/153 kB 15%]                                  3% [Working]            Get:7 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libschroedinger-1.0-0 amd64 1.0.11-2ubuntu1 [268 kB]
-            3% [7 libschroedinger-1.0-0 4,433 B/268 kB 2%]                                              5% [Working]            Get:8 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libva1 amd64 1.3.0-2 [38.6 kB]
-            5% [8 libva1 14.1 kB/38.6 kB 37%]                                 5% [Working]            Get:9 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libx264-142 amd64 2:0.142.2389+git956c8d8-2 [575 kB]
-            5% [9 libx264-142 0 B/575 kB 0%]                                8% [Working]            Get:10 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libxvidcore4 amd64 2:1.3.2-9ubuntu1 [298 kB]
-            8% [10 libxvidcore4 0 B/298 kB 0%]                                  10% [Working]             Get:11 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libavcodec54 amd64 6:9.20-0ubuntu0.14.04.1 [2,350 kB]
-             10% [11 libavcodec54 0 B/2,350 kB 0%]                                     23% [11 libavcodec54 2,344 kB/2,350 kB 100%]                                            23% [Working]             Get:12 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libavformat54 amd64 6:9.20-0ubuntu0.14.04.1 [481 kB]
-             23% [12 libavformat54 0 B/481 kB 0%]                                    26% [Working]             Get:13 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libbasicusageenvironment0 amd64 2014.01.13-1+deb8u1build0.14.04.1 [16.4 kB]
-             26% [13 libbasicusageenvironment0 1,112 B/16.4 kB 7%]                                                     26% [Working]             Get:14 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libbluray1 amd64 1:0.5.0-1 [98.9 kB]
-             26% [14 libbluray1 0 B/98.9 kB 0%]                                  27% [Working]             Get:15 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libcrystalhd3 amd64 1:0.0~git20110715.fdd2f19-9ubuntu1 [52.7 kB]
-             27% [15 libcrystalhd3 3,928 B/52.7 kB 7%]                                         27% [Working]             Get:16 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libdirac-encoder0 amd64 1.0.2-6ubuntu1 [243 kB]
-             27% [16 libdirac-encoder0 12.3 kB/243 kB 5%]                                            28% [Working]             Get:17 http://in.archive.ubuntu.com/ubuntu/ trusty/universe tsconf all 1.0-12 [6,990 B]
-             28% [17 tsconf 6,990 B/6,990 B 100%]                                    28% [Working]             Get:18 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libts-0.0-0 amd64 1.0-12 [18.8 kB]
-             28% [18 libts-0.0-0 1,112 B/18.8 kB 6%]                                       29% [Working]             Get:19 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libdirectfb-1.2-9 amd64 1.2.10.0-5 [759 kB]
-             29% [19 libdirectfb-1.2-9 4,096 B/759 kB 1%]                                            33% [Working]             Get:20 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libdvbpsi8 amd64 1.0.0-3 [52.3 kB]
-             33% [20 libdvbpsi8 2,560 B/52.3 kB 5%]                                      33% [Working]             Get:21 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libdvdread4 amd64 4.2.1-2ubuntu1 [50.2 kB]
-             33% [21 libdvdread4 0 B/50.2 kB 0%]                                   33% [Working]             Get:22 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libdvdnav4 amd64 4.2.1-3 [42.4 kB]
-             33% [22 libdvdnav4 1,112 B/42.4 kB 3%]                                      34% [Working]             Get:23 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libebml4 amd64 1.3.0-2+deb8u1build0.14.04.1 [42.3 kB]
-             34% [23 libebml4 0 B/42.3 kB 0%]                                34% [Working]             Get:24 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libenca0 amd64 1.15-2 [53.7 kB]
-             34% [24 libenca0 0 B/53.7 kB 0%]                                   976 kB/s 11s34% [Working]                                                      976 kB/s 11s                                                                               Get:25 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libfaad2 amd64 2.7-8+deb7u1build0.14.04.1 [143 kB]
-34% [25 libfaad2 0 B/143 kB 0%]                                    976 kB/s 11s35% [Working]                                                      976 kB/s 11s                                                                               Get:26 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libhogweed2 amd64 2.7.1-1ubuntu0.2 [124 kB]
-35% [26 libhogweed2 0 B/124 kB 0%]                                 976 kB/s 11s36% [Working]                                                      976 kB/s 11s                                                                               Get:27 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libgnutls28 amd64 3.2.11-2ubuntu1.2 [540 kB]
-36% [27 libgnutls28 0 B/540 kB 0%]                                 976 kB/s 11s39% [Working]                                                      976 kB/s 10s                                                                               Get:28 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libgroupsock1 amd64 2014.01.13-1+deb8u1build0.14.04.1 [22.0 kB]
-39% [28 libgroupsock1 0 B/22.0 kB 0%]                              976 kB/s 10s39% [Working]                                                      976 kB/s 10s                                                                               Get:29 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe liblivemedia23 amd64 2014.01.13-1+deb8u1build0.14.04.1 [268 kB]
-39% [29 liblivemedia23 0 B/268 kB 0%]                              976 kB/s 10s41% [Working]                                                      976 kB/s 10s                                                                               Get:30 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libmad0 amd64 0.15.1b-9ubuntu14.04.1 [62.0 kB]
-41% [30 libmad0 1,112 B/62.0 kB 2%]                                976 kB/s 10s41% [Working]                                                      976 kB/s 10s                                                                               Get:31 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libmatroska6 amd64 1.4.1-2+deb8u1build0.14.04.1 [107 kB]
-41% [31 libmatroska6 0 B/107 kB 0%]                                976 kB/s 10s42% [Working]                                                      976 kB/s 10s                                                                               Get:32 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libmpeg2-4 amd64 0.5.1-5ubuntu1 [56.4 kB]
-42% [32 libmpeg2-4 0 B/56.4 kB 0%]                                 976 kB/s 10s42% [Working]                                                      976 kB/s 10s                                                                               Get:33 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libsdl1.2debian amd64 1.2.15-8ubuntu1.1 [162 kB]
-42% [33 libsdl1.2debian 0 B/162 kB 0%]                             976 kB/s 10s43% [Working]                                                      976 kB/s 10s                                                                               Get:34 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libsdl-image1.2 amd64 1.2.12-5+deb9u1build0.14.04.1 [28.5 kB]
-43% [34 libsdl-image1.2 0 B/28.5 kB 0%]                            976 kB/s 10s43% [Working]                                                      976 kB/s 10s                                                                               Get:35 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libssh2-1 amd64 1.4.3-2ubuntu0.2 [66.5 kB]
-43% [35 libssh2-1 0 B/66.5 kB 0%]                                  976 kB/s 10s43% [Working]                                                      976 kB/s 10s                                                                               Get:36 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libswscale2 amd64 6:9.20-0ubuntu0.14.04.1 [81.7 kB]
-43% [36 libswscale2 1,111 B/81.7 kB 1%]                            976 kB/s 10s44% [Working]                                                      976 kB/s 10s                                                                               Get:37 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libusageenvironment1 amd64 2014.01.13-1+deb8u1build0.14.04.1 [7,578 B]
-44% [37 libusageenvironment1 7,578 B/7,578 B 100%]                 976 kB/s 10s44% [Working]                                                      976 kB/s 10s                                                                               Get:38 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libva-x11-1 amd64 1.3.0-2 [11.7 kB]
-44% [38 libva-x11-1 1,112 B/11.7 kB 10%]                           976 kB/s 10s44% [Working]                                                       976 kB/s 9s                                                                               Get:39 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libproxy-tools amd64 0.4.11-0ubuntu4 [5,258 B]
-44% [39 libproxy-tools 0 B/5,258 B 0%]                              976 kB/s 9s44% [Working]                                                       976 kB/s 9s                                                                               Get:40 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe vlc-data all 2.1.6-0ubuntu14.04.4 [4,762 kB]
-44% [40 vlc-data 0 B/4,762 kB 0%]                                   976 kB/s 9s67% [40 vlc-data 4,066 kB/4,762 kB 85%]                             976 kB/s 5s71% [Working]                                                       976 kB/s 5s                                                                               Get:41 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libvlccore7 amd64 2.1.6-0ubuntu14.04.4 [342 kB]
-71% [41 libvlccore7 0 B/342 kB 0%]                                  976 kB/s 5s73% [Working]                                                       976 kB/s 4s                                                                               Get:42 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libvlc5 amd64 2.1.6-0ubuntu14.04.4 [39.8 kB]
-73% [42 libvlc5 1,112 B/39.8 kB 3%]                                 976 kB/s 4s74% [Working]                                                       976 kB/s 4s                                                                               Get:43 http://in.archive.ubuntu.com/ubuntu/ trusty/main libxcb-composite0 amd64 1.10-2ubuntu1 [5,036 B]
-74% [43 libxcb-composite0 0 B/5,036 B 0%]                           976 kB/s 4s74% [Working]                                                       976 kB/s 4s                                                                               Get:44 http://in.archive.ubuntu.com/ubuntu/ trusty/main libxcb-xv0 amd64 1.10-2ubuntu1 [8,772 B]
-74% [44 libxcb-xv0 0 B/8,772 B 0%]                                  976 kB/s 4s74% [Working]                                                       976 kB/s 4s                                                                               Get:45 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libzvbi-common all 0.2.35-2 [38.7 kB]
-74% [45 libzvbi-common 1,112 B/38.7 kB 3%]                          976 kB/s 4s74% [Working]                                                       976 kB/s 4s                                                                               Get:46 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libzvbi0 amd64 0.2.35-2 [293 kB]
-74% [46 libzvbi0 0 B/293 kB 0%]                                     976 kB/s 4s75% [Working]                                                       976 kB/s 4s                                                                               Get:47 http://in.archive.ubuntu.com/ubuntu/ trusty/universe liba52-0.7.4 amd64 0.7.4-17 [32.1 kB]
-75% [47 liba52-0.7.4 0 B/32.1 kB 0%]                                976 kB/s 4s76% [Working]                                                       976 kB/s 4s                                                                               Get:48 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libass4 amd64 0.10.1-3ubuntu1 [47.2 kB]
-76% [48 libass4 0 B/47.2 kB 0%]                                     976 kB/s 4s76% [Working]                                                       976 kB/s 4s                                                                               Get:49 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libcddb2 amd64 1.3.2-4fakesync2 [33.9 kB]
-76% [49 libcddb2 5,456 B/33.9 kB 16%]                               976 kB/s 4s76% [Working]                                                       976 kB/s 4s                                                                               Get:50 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libchromaprint0 amd64 1.1-1 [33.1 kB]
-76% [50 libchromaprint0 0 B/33.1 kB 0%]                             976 kB/s 4s76% [Working]                                                       976 kB/s 4s                                                                               Get:51 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libdc1394-22 amd64 2.2.1-2ubuntu2 [75.0 kB]
-76% [51 libdc1394-22 1,111 B/75.0 kB 1%]                            976 kB/s 4s77% [Working]                                                       976 kB/s 4s                                                                               Get:52 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libdca0 amd64 0.0.5-6ubuntu1 [93.5 kB]
-77% [52 libdca0 1,111 B/93.5 kB 1%]                                 976 kB/s 4s77% [Working]                                                       976 kB/s 4s                                                                               Get:53 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libkate1 amd64 0.4.1-1ubuntu1 [37.3 kB]
-77% [53 libkate1 0 B/37.3 kB 0%]                                    976 kB/s 4s78% [Working]                                                       976 kB/s 4s                                                                               Get:54 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libmodplug1 amd64 1:0.8.8.4-4.1 [147 kB]
-78% [54 libmodplug1 0 B/147 kB 0%]                                  976 kB/s 4s78% [Working]                                                       976 kB/s 3s                                                                               Get:55 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libmpcdec6 amd64 2:0.1~r459-1ubuntu3 [30.7 kB]
-78% [55 libmpcdec6 0 B/30.7 kB 0%]                                  976 kB/s 3s79% [Working]                                                       976 kB/s 3s                                                                               Get:56 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libpostproc52 amd64 6:0.git20120821-4 [30.6 kB]
-79% [56 libpostproc52 0 B/30.6 kB 0%]                             1,273 kB/s 2s79% [Working]                                                     1,273 kB/s 2s                                                                               Get:57 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libresid-builder0c2a amd64 2.1.1-14 [39.4 kB]
-79% [57 libresid-builder0c2a 1,112 B/39.4 kB 3%]                  1,273 kB/s 2s79% [Working]                                                     1,273 kB/s 2s                                                                               Get:58 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libsidplay2 amd64 2.1.1-14 [102 kB]
-79% [58 libsidplay2 1,110 B/102 kB 1%]                            1,273 kB/s 2s80% [Working]                                                     1,273 kB/s 2s                                                                               Get:59 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libtwolame0 amd64 0.3.13-1ubuntu1 [48.8 kB]
-80% [59 libtwolame0 0 B/48.8 kB 0%]                               1,273 kB/s 2s80% [Working]                                                     1,273 kB/s 2s                                                                               Get:60 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libupnp6 amd64 1:1.6.17-1.2+deb7u2build0.14.04.1 [117 kB]
-80% [60 libupnp6 0 B/117 kB 0%]                                   1,273 kB/s 2s80% [Working]                                                     1,273 kB/s 2s                                                                               Get:61 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libiso9660-8 amd64 0.83-4.1ubuntu1 [18.8 kB]
-80% [61 libiso9660-8 0 B/18.8 kB 0%]                              1,273 kB/s 2s81% [Working]                                                     1,273 kB/s 2s                                                                               Get:62 http://in.archive.ubuntu.com/ubuntu/ trusty/universe libvcdinfo0 amd64 0.7.24+dfsg-0.1ubuntu2 [89.5 kB]
-81% [62 libvcdinfo0 1,111 B/89.5 kB 1%]                           1,273 kB/s 2s81% [Working]                                                     1,273 kB/s 2s                                                                               Get:63 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe vlc-nox amd64 2.1.6-0ubuntu14.04.4 [2,035 kB]
-81% [63 vlc-nox 0 B/2,035 kB 0%]                                  1,273 kB/s 2s93% [Working]                                                     1,273 kB/s 0s                                                                               Get:64 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe libtar0 amd64 1.2.20-3ubuntu0.1 [18.2 kB]
-93% [64 libtar0 0 B/18.2 kB 0%]                                   1,273 kB/s 0s93% [Working]                                                     1,273 kB/s 0s                                                                               Get:65 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe vlc amd64 2.1.6-0ubuntu14.04.4 [1,213 kB]
-93% [65 vlc 0 B/1,213 kB 0%]                                      1,273 kB/s 0s100% [Working]                                                    1,273 kB/s 0s                                                                               Get:66 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe vlc-plugin-notify amd64 2.1.6-0ubuntu14.04.4 [5,266 B]
-100% [66 vlc-plugin-notify 0 B/5,266 B 0%]                        1,273 kB/s 0s100% [Working]                                                    1,273 kB/s 0s                                                                               Get:67 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/universe vlc-plugin-pulse amd64 2.1.6-0ubuntu14.04.4 [16.8 kB]
-100% [67 vlc-plugin-pulse 2,560 B/16.8 kB 15%]                    1,273 kB/s 0s100% [Working]                                                    1,273 kB/s 0s                                                                               Fetched 17.4 MB in 14s (1,222 kB/s)
-Extracting templates from packages: 44%Extracting templates from packages: 89%Extracting templates from packages: 100%
-Selecting previously unselected package libaacs0:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 202709 files and directories currently installed.)
-Preparing to unpack .../libaacs0_0.7.0-1_amd64.deb ...
-Unpacking libaacs0:amd64 (0.7.0-1) ...
-Selecting previously unselected package libavutil52:amd64.
-Preparing to unpack .../libavutil52_6%3a9.20-0ubuntu0.14.04.1_amd64.deb ...
-Unpacking libavutil52:amd64 (6:9.20-0ubuntu0.14.04.1) ...
-Selecting previously unselected package libgsm1:amd64.
-Preparing to unpack .../libgsm1_1.0.13-4_amd64.deb ...
-Unpacking libgsm1:amd64 (1.0.13-4) ...
-Selecting previously unselected package libmp3lame0:amd64.
-Preparing to unpack .../libmp3lame0_3.99.5+repack1-3ubuntu1_amd64.deb ...
-Unpacking libmp3lame0:amd64 (3.99.5+repack1-3ubuntu1) ...
-Selecting previously unselected package libopenjpeg2:amd64.
-Preparing to unpack .../libopenjpeg2_1.3+dfsg-4.7ubuntu1_amd64.deb ...
-Unpacking libopenjpeg2:amd64 (1.3+dfsg-4.7ubuntu1) ...
-Selecting previously unselected package libopus0.
-Preparing to unpack .../libopus0_1.1-0ubuntu1_amd64.deb ...
-Unpacking libopus0 (1.1-0ubuntu1) ...
-Selecting previously unselected package libschroedinger-1.0-0:amd64.
-Preparing to unpack .../libschroedinger-1.0-0_1.0.11-2ubuntu1_amd64.deb ...
-Unpacking libschroedinger-1.0-0:amd64 (1.0.11-2ubuntu1) ...
-Selecting previously unselected package libva1:amd64.
-Preparing to unpack .../libva1_1.3.0-2_amd64.deb ...
-Unpacking libva1:amd64 (1.3.0-2) ...
-Selecting previously unselected package libx264-142:amd64.
-Preparing to unpack .../libx264-142_2%3a0.142.2389+git956c8d8-2_amd64.deb ...
-Unpacking libx264-142:amd64 (2:0.142.2389+git956c8d8-2) ...
-Selecting previously unselected package libxvidcore4:amd64.
-Preparing to unpack .../libxvidcore4_2%3a1.3.2-9ubuntu1_amd64.deb ...
-Unpacking libxvidcore4:amd64 (2:1.3.2-9ubuntu1) ...
-Selecting previously unselected package libavcodec54:amd64.
-Preparing to unpack .../libavcodec54_6%3a9.20-0ubuntu0.14.04.1_amd64.deb ...
-Unpacking libavcodec54:amd64 (6:9.20-0ubuntu0.14.04.1) ...
-Selecting previously unselected package libavformat54:amd64.
-Preparing to unpack .../libavformat54_6%3a9.20-0ubuntu0.14.04.1_amd64.deb ...
-Unpacking libavformat54:amd64 (6:9.20-0ubuntu0.14.04.1) ...
-Selecting previously unselected package libbasicusageenvironment0.
-Preparing to unpack .../libbasicusageenvironment0_2014.01.13-1+deb8u1build0.14.04.1_amd64.deb ...
-Unpacking libbasicusageenvironment0 (2014.01.13-1+deb8u1build0.14.04.1) ...
-Selecting previously unselected package libbluray1:amd64.
-Preparing to unpack .../libbluray1_1%3a0.5.0-1_amd64.deb ...
-Unpacking libbluray1:amd64 (1:0.5.0-1) ...
-Selecting previously unselected package libcrystalhd3:amd64.
-Preparing to unpack .../libcrystalhd3_1%3a0.0~git20110715.fdd2f19-9ubuntu1_amd64.deb ...
-Unpacking libcrystalhd3:amd64 (1:0.0~git20110715.fdd2f19-9ubuntu1) ...
-Selecting previously unselected package libdirac-encoder0:amd64.
-Preparing to unpack .../libdirac-encoder0_1.0.2-6ubuntu1_amd64.deb ...
-Unpacking libdirac-encoder0:amd64 (1.0.2-6ubuntu1) ...
-Selecting previously unselected package tsconf.
-Preparing to unpack .../archives/tsconf_1.0-12_all.deb ...
-Unpacking tsconf (1.0-12) ...
-Selecting previously unselected package libts-0.0-0:amd64.
-Preparing to unpack .../libts-0.0-0_1.0-12_amd64.deb ...
-Unpacking libts-0.0-0:amd64 (1.0-12) ...
-Selecting previously unselected package libdirectfb-1.2-9:amd64.
-Preparing to unpack .../libdirectfb-1.2-9_1.2.10.0-5_amd64.deb ...
-Unpacking libdirectfb-1.2-9:amd64 (1.2.10.0-5) ...
-Selecting previously unselected package libdvbpsi8:amd64.
-Preparing to unpack .../libdvbpsi8_1.0.0-3_amd64.deb ...
-Unpacking libdvbpsi8:amd64 (1.0.0-3) ...
-Selecting previously unselected package libdvdread4:amd64.
-Preparing to unpack .../libdvdread4_4.2.1-2ubuntu1_amd64.deb ...
-Unpacking libdvdread4:amd64 (4.2.1-2ubuntu1) ...
-Selecting previously unselected package libdvdnav4:amd64.
-Preparing to unpack .../libdvdnav4_4.2.1-3_amd64.deb ...
-Unpacking libdvdnav4:amd64 (4.2.1-3) ...
-Selecting previously unselected package libebml4:amd64.
-Preparing to unpack .../libebml4_1.3.0-2+deb8u1build0.14.04.1_amd64.deb ...
-Unpacking libebml4:amd64 (1.3.0-2+deb8u1build0.14.04.1) ...
-Selecting previously unselected package libenca0:amd64.
-Preparing to unpack .../libenca0_1.15-2_amd64.deb ...
-Unpacking libenca0:amd64 (1.15-2) ...
-Selecting previously unselected package libfaad2:amd64.
-Preparing to unpack .../libfaad2_2.7-8+deb7u1build0.14.04.1_amd64.deb ...
-Unpacking libfaad2:amd64 (2.7-8+deb7u1build0.14.04.1) ...
-Selecting previously unselected package libhogweed2:amd64.
-Preparing to unpack .../libhogweed2_2.7.1-1ubuntu0.2_amd64.deb ...
-Unpacking libhogweed2:amd64 (2.7.1-1ubuntu0.2) ...
-Selecting previously unselected package libgnutls28:amd64.
-Preparing to unpack .../libgnutls28_3.2.11-2ubuntu1.2_amd64.deb ...
-Unpacking libgnutls28:amd64 (3.2.11-2ubuntu1.2) ...
-Selecting previously unselected package libgroupsock1.
-Preparing to unpack .../libgroupsock1_2014.01.13-1+deb8u1build0.14.04.1_amd64.deb ...
-Unpacking libgroupsock1 (2014.01.13-1+deb8u1build0.14.04.1) ...
-Selecting previously unselected package liblivemedia23.
-Preparing to unpack .../liblivemedia23_2014.01.13-1+deb8u1build0.14.04.1_amd64.deb ...
-Unpacking liblivemedia23 (2014.01.13-1+deb8u1build0.14.04.1) ...
-Selecting previously unselected package libmad0:amd64.
-Preparing to unpack .../libmad0_0.15.1b-9ubuntu14.04.1_amd64.deb ...
-Unpacking libmad0:amd64 (0.15.1b-9ubuntu14.04.1) ...
-Selecting previously unselected package libmatroska6:amd64.
-Preparing to unpack .../libmatroska6_1.4.1-2+deb8u1build0.14.04.1_amd64.deb ...
-Unpacking libmatroska6:amd64 (1.4.1-2+deb8u1build0.14.04.1) ...
-Selecting previously unselected package libmpeg2-4:amd64.
-Preparing to unpack .../libmpeg2-4_0.5.1-5ubuntu1_amd64.deb ...
-Unpacking libmpeg2-4:amd64 (0.5.1-5ubuntu1) ...
-Selecting previously unselected package libsdl1.2debian:amd64.
-Preparing to unpack .../libsdl1.2debian_1.2.15-8ubuntu1.1_amd64.deb ...
-Unpacking libsdl1.2debian:amd64 (1.2.15-8ubuntu1.1) ...
-Selecting previously unselected package libsdl-image1.2:amd64.
-Preparing to unpack .../libsdl-image1.2_1.2.12-5+deb9u1build0.14.04.1_amd64.deb ...
-Unpacking libsdl-image1.2:amd64 (1.2.12-5+deb9u1build0.14.04.1) ...
-Selecting previously unselected package libssh2-1:amd64.
-Preparing to unpack .../libssh2-1_1.4.3-2ubuntu0.2_amd64.deb ...
-Unpacking libssh2-1:amd64 (1.4.3-2ubuntu0.2) ...
-Selecting previously unselected package libswscale2:amd64.
-Preparing to unpack .../libswscale2_6%3a9.20-0ubuntu0.14.04.1_amd64.deb ...
-Unpacking libswscale2:amd64 (6:9.20-0ubuntu0.14.04.1) ...
-Selecting previously unselected package libusageenvironment1.
-Preparing to unpack .../libusageenvironment1_2014.01.13-1+deb8u1build0.14.04.1_amd64.deb ...
-Unpacking libusageenvironment1 (2014.01.13-1+deb8u1build0.14.04.1) ...
-Selecting previously unselected package libva-x11-1:amd64.
-Preparing to unpack .../libva-x11-1_1.3.0-2_amd64.deb ...
-Unpacking libva-x11-1:amd64 (1.3.0-2) ...
-Selecting previously unselected package libproxy-tools.
-Preparing to unpack .../libproxy-tools_0.4.11-0ubuntu4_amd64.deb ...
-Unpacking libproxy-tools (0.4.11-0ubuntu4) ...
-Selecting previously unselected package vlc-data.
-Preparing to unpack .../vlc-data_2.1.6-0ubuntu14.04.4_all.deb ...
-Unpacking vlc-data (2.1.6-0ubuntu14.04.4) ...
-Selecting previously unselected package libvlccore7.
-Preparing to unpack .../libvlccore7_2.1.6-0ubuntu14.04.4_amd64.deb ...
-Unpacking libvlccore7 (2.1.6-0ubuntu14.04.4) ...
-Selecting previously unselected package libvlc5.
-Preparing to unpack .../libvlc5_2.1.6-0ubuntu14.04.4_amd64.deb ...
-Unpacking libvlc5 (2.1.6-0ubuntu14.04.4) ...
-Selecting previously unselected package libxcb-composite0:amd64.
-Preparing to unpack .../libxcb-composite0_1.10-2ubuntu1_amd64.deb ...
-Unpacking libxcb-composite0:amd64 (1.10-2ubuntu1) ...
-Selecting previously unselected package libxcb-xv0:amd64.
-Preparing to unpack .../libxcb-xv0_1.10-2ubuntu1_amd64.deb ...
-Unpacking libxcb-xv0:amd64 (1.10-2ubuntu1) ...
-Selecting previously unselected package libzvbi-common.
-Preparing to unpack .../libzvbi-common_0.2.35-2_all.deb ...
-Unpacking libzvbi-common (0.2.35-2) ...
-Selecting previously unselected package libzvbi0:amd64.
-Preparing to unpack .../libzvbi0_0.2.35-2_amd64.deb ...
-Unpacking libzvbi0:amd64 (0.2.35-2) ...
-Selecting previously unselected package liba52-0.7.4.
-Preparing to unpack .../liba52-0.7.4_0.7.4-17_amd64.deb ...
-Unpacking liba52-0.7.4 (0.7.4-17) ...
-Selecting previously unselected package libass4:amd64.
-Preparing to unpack .../libass4_0.10.1-3ubuntu1_amd64.deb ...
-Unpacking libass4:amd64 (0.10.1-3ubuntu1) ...
-Selecting previously unselected package libcddb2.
-Preparing to unpack .../libcddb2_1.3.2-4fakesync2_amd64.deb ...
-Unpacking libcddb2 (1.3.2-4fakesync2) ...
-Selecting previously unselected package libchromaprint0:amd64.
-Preparing to unpack .../libchromaprint0_1.1-1_amd64.deb ...
-Unpacking libchromaprint0:amd64 (1.1-1) ...
-Selecting previously unselected package libdc1394-22:amd64.
-Preparing to unpack .../libdc1394-22_2.2.1-2ubuntu2_amd64.deb ...
-Unpacking libdc1394-22:amd64 (2.2.1-2ubuntu2) ...
-Selecting previously unselected package libdca0:amd64.
-Preparing to unpack .../libdca0_0.0.5-6ubuntu1_amd64.deb ...
-Unpacking libdca0:amd64 (0.0.5-6ubuntu1) ...
-Selecting previously unselected package libkate1.
-Preparing to unpack .../libkate1_0.4.1-1ubuntu1_amd64.deb ...
-Unpacking libkate1 (0.4.1-1ubuntu1) ...
-Selecting previously unselected package libmodplug1.
-Preparing to unpack .../libmodplug1_1%3a0.8.8.4-4.1_amd64.deb ...
-Unpacking libmodplug1 (1:0.8.8.4-4.1) ...
-Selecting previously unselected package libmpcdec6.
-Preparing to unpack .../libmpcdec6_2%3a0.1~r459-1ubuntu3_amd64.deb ...
-Unpacking libmpcdec6 (2:0.1~r459-1ubuntu3) ...
-Selecting previously unselected package libpostproc52.
-Preparing to unpack .../libpostproc52_6%3a0.git20120821-4_amd64.deb ...
-Unpacking libpostproc52 (6:0.git20120821-4) ...
-Selecting previously unselected package libresid-builder0c2a.
-Preparing to unpack .../libresid-builder0c2a_2.1.1-14_amd64.deb ...
-Unpacking libresid-builder0c2a (2.1.1-14) ...
-Selecting previously unselected package libsidplay2.
-Preparing to unpack .../libsidplay2_2.1.1-14_amd64.deb ...
-Unpacking libsidplay2 (2.1.1-14) ...
-Selecting previously unselected package libtwolame0.
-Preparing to unpack .../libtwolame0_0.3.13-1ubuntu1_amd64.deb ...
-Unpacking libtwolame0 (0.3.13-1ubuntu1) ...
-Selecting previously unselected package libupnp6.
-Preparing to unpack .../libupnp6_1%3a1.6.17-1.2+deb7u2build0.14.04.1_amd64.deb ...
-Unpacking libupnp6 (1:1.6.17-1.2+deb7u2build0.14.04.1) ...
-Selecting previously unselected package libiso9660-8.
-Preparing to unpack .../libiso9660-8_0.83-4.1ubuntu1_amd64.deb ...
-Unpacking libiso9660-8 (0.83-4.1ubuntu1) ...
-Selecting previously unselected package libvcdinfo0.
-Preparing to unpack .../libvcdinfo0_0.7.24+dfsg-0.1ubuntu2_amd64.deb ...
-Unpacking libvcdinfo0 (0.7.24+dfsg-0.1ubuntu2) ...
-Selecting previously unselected package vlc-nox.
-Preparing to unpack .../vlc-nox_2.1.6-0ubuntu14.04.4_amd64.deb ...
-Unpacking vlc-nox (2.1.6-0ubuntu14.04.4) ...
-Selecting previously unselected package libtar0.
-Preparing to unpack .../libtar0_1.2.20-3ubuntu0.1_amd64.deb ...
-Unpacking libtar0 (1.2.20-3ubuntu0.1) ...
-Selecting previously unselected package vlc.
-Preparing to unpack .../vlc_2.1.6-0ubuntu14.04.4_amd64.deb ...
-Unpacking vlc (2.1.6-0ubuntu14.04.4) ...
-Selecting previously unselected package vlc-plugin-notify.
-Preparing to unpack .../vlc-plugin-notify_2.1.6-0ubuntu14.04.4_amd64.deb ...
-Unpacking vlc-plugin-notify (2.1.6-0ubuntu14.04.4) ...
-Selecting previously unselected package vlc-plugin-pulse.
-Preparing to unpack .../vlc-plugin-pulse_2.1.6-0ubuntu14.04.4_amd64.deb ...
-Unpacking vlc-plugin-pulse (2.1.6-0ubuntu14.04.4) ...
-Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
-Processing triggers for hicolor-icon-theme (0.13-1) ...
-Processing triggers for desktop-file-utils (0.22-1ubuntu1.1) ...
-Processing triggers for gnome-menus (3.10.1-0ubuntu2) ...
-Processing triggers for bamfdaemon (0.5.1+14.04.20140409-0ubuntu1) ...
-Rebuilding /usr/share/applications/bamf-2.index...
-Processing triggers for mime-support (3.54ubuntu1.1) ...
-Setting up libaacs0:amd64 (0.7.0-1) ...
-Setting up libavutil52:amd64 (6:9.20-0ubuntu0.14.04.1) ...
-Setting up libgsm1:amd64 (1.0.13-4) ...
-Setting up libmp3lame0:amd64 (3.99.5+repack1-3ubuntu1) ...
-Setting up libopenjpeg2:amd64 (1.3+dfsg-4.7ubuntu1) ...
-Setting up libopus0 (1.1-0ubuntu1) ...
-Setting up libschroedinger-1.0-0:amd64 (1.0.11-2ubuntu1) ...
-Setting up libva1:amd64 (1.3.0-2) ...
-Setting up libx264-142:amd64 (2:0.142.2389+git956c8d8-2) ...
-Setting up libxvidcore4:amd64 (2:1.3.2-9ubuntu1) ...
-Setting up libavcodec54:amd64 (6:9.20-0ubuntu0.14.04.1) ...
-Setting up libavformat54:amd64 (6:9.20-0ubuntu0.14.04.1) ...
-Setting up libbasicusageenvironment0 (2014.01.13-1+deb8u1build0.14.04.1) ...
-Setting up libbluray1:amd64 (1:0.5.0-1) ...
-Setting up libcrystalhd3:amd64 (1:0.0~git20110715.fdd2f19-9ubuntu1) ...
-Setting up libdirac-encoder0:amd64 (1.0.2-6ubuntu1) ...
-Setting up tsconf (1.0-12) ...
-Setting up libts-0.0-0:amd64 (1.0-12) ...
-Setting up libdirectfb-1.2-9:amd64 (1.2.10.0-5) ...
-Setting up libdvbpsi8:amd64 (1.0.0-3) ...
-Setting up libdvdread4:amd64 (4.2.1-2ubuntu1) ...
-Setting up libdvdnav4:amd64 (4.2.1-3) ...
-Setting up libebml4:amd64 (1.3.0-2+deb8u1build0.14.04.1) ...
-Setting up libenca0:amd64 (1.15-2) ...
-Setting up libfaad2:amd64 (2.7-8+deb7u1build0.14.04.1) ...
-Setting up libhogweed2:amd64 (2.7.1-1ubuntu0.2) ...
-Setting up libgnutls28:amd64 (3.2.11-2ubuntu1.2) ...
-Setting up libgroupsock1 (2014.01.13-1+deb8u1build0.14.04.1) ...
-Setting up liblivemedia23 (2014.01.13-1+deb8u1build0.14.04.1) ...
-Setting up libmad0:amd64 (0.15.1b-9ubuntu14.04.1) ...
-Setting up libmatroska6:amd64 (1.4.1-2+deb8u1build0.14.04.1) ...
-Setting up libmpeg2-4:amd64 (0.5.1-5ubuntu1) ...
-Setting up libsdl1.2debian:amd64 (1.2.15-8ubuntu1.1) ...
-Setting up libsdl-image1.2:amd64 (1.2.12-5+deb9u1build0.14.04.1) ...
-Setting up libssh2-1:amd64 (1.4.3-2ubuntu0.2) ...
-Setting up libswscale2:amd64 (6:9.20-0ubuntu0.14.04.1) ...
-Setting up libusageenvironment1 (2014.01.13-1+deb8u1build0.14.04.1) ...
-Setting up libva-x11-1:amd64 (1.3.0-2) ...
-Setting up libproxy-tools (0.4.11-0ubuntu4) ...
-Setting up vlc-data (2.1.6-0ubuntu14.04.4) ...
-Setting up libvlccore7 (2.1.6-0ubuntu14.04.4) ...
-Setting up libvlc5 (2.1.6-0ubuntu14.04.4) ...
-Setting up libxcb-composite0:amd64 (1.10-2ubuntu1) ...
-Setting up libxcb-xv0:amd64 (1.10-2ubuntu1) ...
-Setting up libzvbi-common (0.2.35-2) ...
-Setting up libzvbi0:amd64 (0.2.35-2) ...
-Setting up liba52-0.7.4 (0.7.4-17) ...
-Setting up libass4:amd64 (0.10.1-3ubuntu1) ...
-Setting up libcddb2 (1.3.2-4fakesync2) ...
-Setting up libchromaprint0:amd64 (1.1-1) ...
-Setting up libdc1394-22:amd64 (2.2.1-2ubuntu2) ...
-Setting up libdca0:amd64 (0.0.5-6ubuntu1) ...
-Setting up libkate1 (0.4.1-1ubuntu1) ...
-Setting up libmodplug1 (1:0.8.8.4-4.1) ...
-Setting up libmpcdec6 (2:0.1~r459-1ubuntu3) ...
-Setting up libpostproc52 (6:0.git20120821-4) ...
-Setting up libresid-builder0c2a (2.1.1-14) ...
-Setting up libsidplay2 (2.1.1-14) ...
-Setting up libtwolame0 (0.3.13-1ubuntu1) ...
-Setting up libupnp6 (1:1.6.17-1.2+deb7u2build0.14.04.1) ...
-Setting up libiso9660-8 (0.83-4.1ubuntu1) ...
-Setting up libvcdinfo0 (0.7.24+dfsg-0.1ubuntu2) ...
-Setting up vlc-nox (2.1.6-0ubuntu14.04.4) ...
-Setting up libtar0 (1.2.20-3ubuntu0.1) ...
-Setting up vlc (2.1.6-0ubuntu14.04.4) ...
-Setting up vlc-plugin-notify (2.1.6-0ubuntu14.04.4) ...
-Setting up vlc-plugin-pulse (2.1.6-0ubuntu14.04.4) ...
-Processing triggers for libc-bin (2.19-0ubuntu6.15) ...
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ s[KSU[KDO[K[K[Ksuod [K[K[K[K[Ksuod =[K[K[K[K[K[Ksudo apt-get remio==[K[K[K[K[Ke[Kmove vls[Kc
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-The following packages were automatically installed and are no longer required:
-  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libqpdf13 libupstart1
-  python-ntdb
-Use 'apt-get autoremove' to remove them.
-The following packages will be REMOVED:
-  vlc
-0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
-After this operation, 3,855 kB disk space will be freed.
-Do you want to continue? [Y/n] y
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 203953 files and directories currently installed.)
-Removing vlc (2.1.6-0ubuntu14.04.4) ...
-Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
-Processing triggers for vlc-nox (2.1.6-0ubuntu14.04.4) ...
-Processing triggers for mime-support (3.54ubuntu1.1) ...
-Processing triggers for desktop-file-utils (0.22-1ubuntu1.1) ...
-Processing triggers for gnome-menus (3.10.1-0ubuntu2) ...
-Processing triggers for bamfdaemon (0.5.1+14.04.20140409-0ubuntu1) ...
-Rebuilding /usr/share/applications/bamf-2.index...
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ [K]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ ed[K[Kexit
-exit
-
-Script done on Thursday 11 April 2019 11:26:07 AM IST
