@@ -8,7 +8,9 @@ bash: syntax error near unexpected token `('
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d01@192.168.0.30's password: 
-dbatch.txt                                      0%    0     0.0KB/s   --:-- ETAdbatch.txt                                    100% 3001     2.9KB/s   00:00    
+
+dbatch.txt                                      0%    0     0.0KB/s   --:-- ETA
+dbatch.txt                                    100% 3001     2.9KB/s   00:00    
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ ssh cs17d01@10[K92.168.0.30
 .
               |
@@ -23,22 +25,28 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Mar 25 11:37:41 2019 from 192.168.0.129
+Last login: Mon Mar 25 11:37:41 2019 from 192.168.0.129
+
 $ ls
 abin  dbatch.txt	fosslaba	foss.txt  madrid.txt	  s4d.txt
 cec   examples.desktop	foss.linux.pdf	ls	  result_CHN.pdf  task51.txt
 $ scp csd1701@192.168.0.30                        ^Z
 $ exit
-Connection to 192.168.0.30 closed.
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ sc[K[Kscp cs17d01@192.168.0.30:home/cs17d01/madrid.txt  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d01@192.168.0.30:home/cs17d01/madrid.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd01.[K/madrid.txzt[K[Ky[Kt  home/home[C[C[C/e[1Pe[C/s4d1
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ sc[K[Kscp cs17d01@192.168.0.30:home/cs17d01/madrid.txt  
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d01@192.168.0.30:home/cs17d01/madrid.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd01.[K/madrid.txzt[K[Ky[Kt  home/home[C[C[C/e[1Pe[C/s4d1
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d01@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cs17d01@192.168.0.30's password: 
 scp: home/cs17d01/madrid.txt: No such file or directory
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d01@192.168.0.30:home/cs17d01/madrid.txt  /home/s4d1[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@f[1@i[1@l[1@e[1@:[1@/[1@/[1@/[1@h[1@o[1@m[1@e[1@/[1@s[1@4[1@d[1@1[1@/[1@s[1@4[1@d[1@f[1@i[1@n[1@a[1@l[1@.[1@t[1@x[1@t[C[C /home/s4d1[C[1P/home/s4d1[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@s[1@4[1@d[1@f[1@i[1@n[1@a[1@l[1@.[1@t[1@x[1@t
@@ -57,7 +65,9 @@ scp: home/cs17d01/s4dfinal.txt: No such file or directory
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d01@192.168.0.30's password: 
 scp: home/s4dfinal.txt: No such file or directory
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d01@192.168.0.30:home/s4dfinal.txt  /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp cs17d01@192.168.0.30:home/s4dfinal.txt  /home/s4d1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp cs17d01@192.168.0.30:home/s4dfinal.txt  /home/s4d1[8@cs17d01/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/[K[1P[1P[1P[1P[1P[1P[1P[1P[1@n[1@e[1@w
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d01@192.168.0.30:home/s4dfinal.txt  /home/s4d1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp cs17d01@192.168.0.30:home/s4dfinal.txt  /home/s4d1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp cs17d01@192.168.0.30:home/s4dfinal.txt  /home/s4d1[8@cs17d01/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/[K[1P[1P[1P[1P[1P[1P[1P[1P[1@n[1@e[1@w
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -65,7 +75,8 @@ scp: home/s4dfinal.txt: No such file or directory
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d01@192.168.0.30's password: 
 scp: home/cs17d01/new.txt: No such file or directory
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d01@192.168.0.30:home/cs17d01/new.txt  /home/s4d1[3Ps4dfinal[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@cs17d01/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@cs17d01/new[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp cs17d01@192.168.0.30:home/cs17d01/new.txt  /home/s4d1[3Ps4dfinal[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@cs17d01/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pmadrid[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@s4dfinal[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1@r[1@e[1@s[1@u[1@l[1@t
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d01@192.168.0.30:home/cs17d01/new.txt  /home/s4d1[3Ps4dfinal[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@cs17d01/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@cs17d01/new[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp cs17d01@192.168.0.30:home/cs17d01/new.txt  /home/s4d1[3Ps4dfinal[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@cs17d01/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pmadrid[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@s4dfinal[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1@r[1@e[1@s[1@u[1@l[1@t
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
