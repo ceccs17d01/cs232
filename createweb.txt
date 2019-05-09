@@ -1,0 +1,14 @@
+cec@cec-H110M:~$ sftp cs17d01@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d01@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put index.html
+Uploading index.html to /home/cs17d01/index.html
+index.html                                    100% 7727     7.6KB/s   00:00    
+sftp> exit
+cec@cec-H110M:~$ 
+
