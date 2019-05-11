@@ -19,7 +19,7 @@ uname -s
 free
 uname -r
 cat b.txt
-cat anakha.txt
+cat real.txt
 ls
 ls -l
 
